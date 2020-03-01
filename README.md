@@ -14,7 +14,7 @@
 
 ```css
 body{
-	background-color:red;
+background-color:red;
 }
 ```
 
