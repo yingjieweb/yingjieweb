@@ -1,4 +1,4 @@
-# git_blog
+# git_resume
 
 ##### 自我介绍
 1. 大家好
