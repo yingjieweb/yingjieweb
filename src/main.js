@@ -3,7 +3,7 @@ window.onload = function () {
   let style = document.getElementById('style');
 
   let str = `/*大家好，我叫宋徐坤
-练习时长两年半了的coder，
+练习时长达两年半的coder，
 我喜欢唱，跳，code，篮球，
 下面我给大家展示个花里胡哨图*/
 /*ok，show time，先搞一个div */
