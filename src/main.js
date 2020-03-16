@@ -6,7 +6,7 @@ window.onload = function () {
 练习时长达两年半的coder，
 我喜欢唱，跳，code，篮球，
 下面我给大家展示个花里胡哨图*/
-/*ok，show time，先搞一个div */
+/*ok，show time，先搞一个圈圈*/
 #canvas{
   width:200px;
   height:200px;
