@@ -6,7 +6,7 @@ window.onload = function () {
 练习时长达两年半的coder，
 我喜欢唱，跳，code，篮球，
 下面我给大家展示个花里胡哨图*/
-/*ok，show time，先搞一个圈圈*/
+/*ok，show time，先画一个圈圈*/
 #canvas{
   width:200px;
   height:200px;
@@ -14,9 +14,9 @@ window.onload = function () {
   box-shadow: 0 0 3px rgba(0,0,0,0.5);
   border: none;
 }
-/* 八卦是阴阳形成的
- * 一黑一白
- **/
+/* 
+ * 八卦是阴阳形成的，一黑一白
+ */
 #canvas{
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
 }
