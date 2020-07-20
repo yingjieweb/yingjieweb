@@ -1,11 +1,15 @@
 <template>
-  <div></div>
+  <div class="header">
+    <p>header</p>
+  </div>
 </template>
 
 <script lange="ts">
-  export default {
-    name: "Header"
-  }
+  import Vue from 'vue'
+  import {Component} from 'vue-property-decorator'
+
+  @Component()
+  export default class Header extends Vue{}
 </script>
 
 <style lang="scss" scoped>

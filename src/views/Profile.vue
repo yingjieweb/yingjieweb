@@ -1,12 +1,14 @@
 <template>
   <div class="profile">
-    这是我的 Profile
+    <p>这是我的 Profile11113333333333333</p>
   </div>
 </template>
 
 <script lange="ts">
   import Vue from 'vue'
+  import {Component} from 'vue-property-decorator'
 
+  @Component()
   export default class Profile extends Vue{
 
   }
