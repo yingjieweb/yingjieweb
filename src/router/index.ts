@@ -1,12 +1,16 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Profile from '../views/Profile.vue'
+import Profile from '@/views/Profile.vue'
 
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
   {
     path: '/',
+    redirect: '/profile'
+  },
+  {
+    path: '/profile',
     name: 'profile',
     component: Profile
   }
