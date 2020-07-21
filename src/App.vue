@@ -37,5 +37,12 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
+
+    .views {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 50px 30px;
+      background: white;
+    }
   }
 </style>
