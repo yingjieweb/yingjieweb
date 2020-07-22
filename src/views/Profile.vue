@@ -6,6 +6,11 @@
         一名前端小学生，本科毕业于 <a href="https://www.qfnu.edu.cn/" target="_blank">曲阜师范大学</a>，
         目前正在 <a href="https://www.neu.edu.cn/" target="_blank">东北大学</a> 读研，都为软件工程专业。
       </p>
+
+      <el-button @click="showMore = !showMore" type="text">
+        {{showMoreText}}<i :class="showMore ? 'el-icon-caret-top' : 'el-icon-caret-bottom'"/>
+      </el-button>
+
     </div>
   </div>
 </template>
@@ -16,7 +21,11 @@
 
   @Component()
   export default class Profile extends Vue{
+    showMore = false
 
+    get showMoreText() {
+      return this.showMore ? '收起' : '了解更多'
+    }
   }
 </script>
 
