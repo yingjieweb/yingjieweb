@@ -11,6 +11,14 @@
         {{showMoreText}}<i :class="showMore ? 'el-icon-caret-top' : 'el-icon-caret-bottom'"/>
       </el-button>
 
+      <div v-show="showMore" class="item">
+        <h1>更多</h1>
+        <Details></Details>
+      </div>
+
+      <div class="item">
+        <h1>找我</h1>
+      </div>
     </div>
   </div>
 </template>
