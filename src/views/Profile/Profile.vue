@@ -5,21 +5,22 @@
       <p>
         一名前端小学生，本科毕业于 <a href="https://www.qfnu.edu.cn/" target="_blank">曲阜师范大学</a>，
         目前正在 <a href="https://www.neu.edu.cn/" target="_blank">东北大学</a> 读研，都为软件工程专业。
+        目前正在自学一些前端知识，希望以后能成为一名专业的前端开发工程师。
       </p>
 
       <el-button @click="showMore = !showMore" type="text">
         {{showMoreText}}<i :class="showMore ? 'el-icon-caret-top' : 'el-icon-caret-bottom'"/>
       </el-button>
+    </div>
 
-      <div v-show="showMore" class="item">
-        <h2>更多</h2>
-        <Details></Details>
-      </div>
+    <div v-show="showMore" class="item">
+      <h2>更多</h2>
+      <Details></Details>
+    </div>
 
-      <div class="item">
-        <h2>找我</h2>
-        <Social></Social>
-      </div>
+    <div class="item">
+      <h2>找我</h2>
+      <Social></Social>
     </div>
   </div>
 </template>
