@@ -12,12 +12,12 @@
       </el-button>
 
       <div v-show="showMore" class="item">
-        <h1>更多</h1>
+        <h2>更多</h2>
         <Details></Details>
       </div>
 
       <div class="item">
-        <h1>找我</h1>
+        <h2>找我</h2>
         <Social></Social>
       </div>
     </div>
