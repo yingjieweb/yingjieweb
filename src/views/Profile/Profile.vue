@@ -18,6 +18,11 @@
       <Details></Details>
     </div>
 
+    <div v-show="showMore" class="item">
+      <h1>技术</h1>
+      <Technique></Technique>
+    </div>
+
     <div class="item">
       <h2>找我</h2>
       <Social></Social>
@@ -31,9 +36,10 @@
 
   import Details from '@/views/Profile/Details'
   import Social from  '@/views/Profile/Social'
+  import Technique from  '@/views/Profile/Technique'
 
   @Component({
-    components: {Details, Social}
+    components: {Details, Social, Technique}
   })
   export default class Profile extends Vue{
     showMore = false
