@@ -18,6 +18,7 @@
 
       <div class="item">
         <h1>找我</h1>
+        <Social></Social>
       </div>
     </div>
   </div>
@@ -27,7 +28,12 @@
   import Vue from 'vue'
   import {Component} from 'vue-property-decorator'
 
-  @Component()
+  import Details from '@/views/Profile/Details'
+  import Social from  '@/views/Profile/Social'
+
+  @Component({
+    components: {Details, Social}
+  })
   export default class Profile extends Vue{
     showMore = false
 
