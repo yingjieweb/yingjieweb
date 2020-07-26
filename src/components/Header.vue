@@ -19,7 +19,11 @@
   import Vue from 'vue'
   import {Component} from 'vue-property-decorator'
 
-  @Component
+  import Menu from '@/components/Menu/Menu'
+
+  @Component({
+    components: {Menu}
+  })
   export default class Header extends Vue{
     avatar = require('../assets/images/avatar.jpg')
   }
