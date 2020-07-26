@@ -19,7 +19,7 @@
     </div>
 
     <div v-show="showMore" class="item">
-      <h1>技术</h1>
+      <h2>技术</h2>
       <Technique></Technique>
     </div>
 
