@@ -14,21 +14,16 @@
   </div>
 </template>
 
-<script lange="ts">
+<script lang="ts">
   import Vue from 'vue'
   import {Component, Prop} from 'vue-property-decorator'
 
-  type TMenuItem = {
-    route: string
-    label: string
-    icon: string
-  }
-
   @Component
   export default class PCMenu extends Vue {
-    @Prop({required: true}) menu!: TMenuItem[]
-
-    @Prop({required: true}) selected!: (route: string) => boolean;
+    @Prop({required: true})
+    menu!: TMenuItem[]
+    @Prop({required: true})
+    selected!: (route: string) => boolean
   }
 </script>
 
