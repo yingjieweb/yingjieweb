@@ -15,7 +15,7 @@
   import {Component} from 'vue-property-decorator'
 
   @Component
-  export default class IntroList extends Vue {
+  export default class Details extends Vue {
 
   }
 </script>

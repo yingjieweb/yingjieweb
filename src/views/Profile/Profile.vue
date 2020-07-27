@@ -30,13 +30,13 @@
   </div>
 </template>
 
-<script lange="ts">
+<script lang="ts">
   import Vue from 'vue'
   import {Component} from 'vue-property-decorator'
 
-  import Details from '@/views/Profile/Details'
-  import Social from  '@/views/Profile/Social'
-  import Technique from  '@/views/Profile/Technique'
+  import Details from '@/views/Profile/Details.vue'
+  import Social from  '@/views/Profile/Social.vue'
+  import Technique from  '@/views/Profile/Technique.vue'
 
   @Component({
     components: {Details, Social, Technique}

@@ -15,11 +15,11 @@
   </div>
 </template>
 
-<script lange="ts">
+<script lang="ts">
   import Vue from 'vue'
   import {Component} from 'vue-property-decorator'
 
-  import Menu from '@/components/Menu/Menu'
+  import Menu from '@/components/Menu/Menu.vue'
 
   @Component({
     components: {Menu}

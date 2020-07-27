@@ -4,11 +4,11 @@
   </div>
 </template>
 
-<script lange="ts">
+<script lang="ts">
   import Vue from 'vue'
   import {Component} from 'vue-property-decorator'
 
-  @Component()
+  @Component
   export default class Footer extends Vue{}
 </script>
 
