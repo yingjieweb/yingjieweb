@@ -15,8 +15,8 @@ type TBlogItem = {
 type TProjectItem = {
   title: string
   desc: string
-  url: string
   github: string
+  document: string
   languages: string[]
   stars: number
 }
