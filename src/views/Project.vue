@@ -4,7 +4,7 @@
     <ul>
       <li v-for="item in projectDB" :key="item.github">
         <div>
-          <a class="title" :href="item.url" target="_blank">{{item.title}}</a>
+          <a class="title" :href="item.github" target="_blank">{{item.title}}</a>
           <p class="desc">{{item.desc}}</p>
         </div>
         <div class="buttons">
@@ -39,8 +39,15 @@
     li {
       display: flex;
       justify-content: space-between;
+      padding: 5px;
       margin-bottom: 32px;
       min-height: 86px;
+      &:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s;
+        border: 1px solid coral;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+      }
 
       &:last-child {
         margin-bottom: 0;
