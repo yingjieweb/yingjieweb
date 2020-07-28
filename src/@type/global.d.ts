@@ -7,7 +7,6 @@ type TMenuItem = {
 type TBlogItem = {
   title: string
   desc: string
-  avatar: string
   url: string
   date: string
 }
