@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    © 2020 - 2021 ★ Made By yingjieweb
+    Copyright © 2020 - 2021 yingjieweb
   </div>
 </template>
 
