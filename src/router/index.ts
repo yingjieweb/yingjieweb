@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from 'vue-router'
 import Profile from '@/views/Profile/Profile.vue'
 import Blog from "@/views/Blog.vue";
 import Project from "@/views/Project.vue";
+import WishList from "@/views/WishList/WishList.vue";
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,11 @@ const routes: Array<RouteConfig> = [
     path: '/project',
     name: 'project',
     component: Project
+  },
+  {
+    path: '/wish-list',
+    name: 'wish-list',
+    component: WishList
   }
 ]
 
