@@ -20,7 +20,7 @@
       {route: '/', label: '主页', icon: 'el-icon-user'},
       {route: '/blog', label: '文章', icon: 'el-icon-notebook-1'},
       {route: '/portfolio', label: '项目', icon: 'el-icon-suitcase'},
-      {route: '/bucket-list', label: '人生清单', icon: 'el-icon-s-order'}
+      // {route: '/bucket-list', label: '人生清单', icon: 'el-icon-s-order'}
     ]
 
     selected(route: string) {
