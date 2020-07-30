@@ -17,7 +17,7 @@
   @Component
   export default class Social extends Vue {
     social = [
-      {label: '邮箱', icon: '#icon-mail', link: '1184061078@qq.com'},
+      {label: '邮箱', icon: '#icon-mail', link: 'https://mail.qq.com/'},
       {label: 'CSDN', icon: '#icon-csdn', link: 'https://blog.csdn.net/marker__'},
       {label: 'Github', icon: '#icon-github', link: 'https://github.com/yingjieweb'}
     ]
