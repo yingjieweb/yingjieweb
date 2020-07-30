@@ -1,5 +1,11 @@
 const csdnDB: TBlogItem[] = [
   {
+    title: 'Web 安全 — XSS 的原理和攻防',
+    desc: 'XSS 是跨站脚本攻击 (Cross Site Scripting)，为不和层叠样式表 (Cascading Style Sheets, CSS)...',
+    url: 'https://blog.csdn.net/Marker__/article/details/107653194',
+    date: '2020-07-30'
+  },
+  {
     title: '关于 webpack 的几个知识点',
     desc: '最近几天备战秋招复习 webpack 的时候，发现一篇总结的比较好的博文，摘取几个相关的问题...',
     url: 'https://blog.csdn.net/Marker__/article/details/107619259',
@@ -349,9 +355,39 @@ const csdnDB: TBlogItem[] = [
   },
   {
     title: 'grid 布局',
-    desc: 'grid 布局（网格布局） 和 flex 布局一样，都是 CSS3 的新布局模式，但 flex 布局是一维布局，grid 布局是...',
+    desc: 'grid 布局（网格布局） 和 flex 布局一样，都是 CSS3 的新布局模式，但 flex 布局是一维布局...',
     url: 'https://blog.csdn.net/Marker__/article/details/104573989',
     date: '2020-02-29'
+  },
+  {
+    title: 'meta viewport 完美视口',
+    desc: '快捷键：meta:vp 然后按Tab，可以自动生成视口，但是不够完整，完整如下：...',
+    url: 'https://blog.csdn.net/Marker__/article/details/104558821',
+    date: '2020-02-28'
+  },
+  {
+    title: 'GitHub Pages 预览 HTML/项目',
+    desc: '在 GitHub 上提交的代码，如果想在线预览页面，我们可以使用 GitHub 提供的 GitHub Pages...',
+    url: 'https://blog.csdn.net/Marker__/article/details/104504589',
+    date: '2020-02-25'
+  },
+  {
+    title: 'GitHub 直接预览 Markdown',
+    desc: 'Markdown 是一种轻量级标记语言，它以纯文本形式（易读、易写、易更改）编写文档，并最终以...',
+    url: 'https://blog.csdn.net/Marker__/article/details/104486460',
+    date: '2020-02-25'
+  },
+  {
+    title: 'git 切换 ssh 和 https 协议',
+    desc: '如果你采用的是 https 协议提交代码到 github 的话，会发现每次 push 代码时都需要验证你的...',
+    url: 'https://blog.csdn.net/Marker__/article/details/104472081',
+    date: '2020-02-24'
+  },
+  {
+    title: '同时使用 GitHub 和 GitLab',
+    desc: '先说一下写这篇博客的缘由，之前自己开发项目的时候都是用 gitHub 来托管代码，但是实习之后...',
+    url: 'https://blog.csdn.net/Marker__/article/details/104286660',
+    date: '2020-02-12'
   },
   {
     title: '其余博客在我的 CSDN 博客主页',
