@@ -2,7 +2,7 @@ const csdnDB: TBlogItem[] = [
   {
     title: 'Web 安全 — XSS 的原理和攻防',
     desc: 'XSS 是跨站脚本攻击 (Cross Site Scripting)，为不和层叠样式表 (Cascading Style Sheets, CSS)...',
-    url: 'https://blog.csdn.net/Marker__/article/details/107653194',
+    url: 'https://blog.csdn.net/Marker__/article/details/107688303',
     date: '2020-07-30'
   },
   {
