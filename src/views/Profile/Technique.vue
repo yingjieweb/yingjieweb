@@ -12,7 +12,9 @@
     <li>了解 Java 语言，熟悉数据结构相关概念及常见的 <span class='highlight'>排序算法</span>，了解 <span class='highlight'>HTTP 协议</span> 及浏览器渲染原理
     </li>
     <li>熟悉 <span class='highlight webpack'>webpack</span> 打包工具，<span class='highlight es6'>ES6</span> 的常见语法、
-      <span class='highlight git'>Git</span> 版本管理工具、数据可视化 <span class='highlight echarts'>ECharts</span></li>
+      <span class='highlight git'>Git</span> 版本管理工具、数据可视化 <span class='highlight echarts'>ECharts</span>
+    </li>
+    <li>正在学习：入门 <span class='highlight weixin'>微信小程序</span>，深入学习 <span class='highlight react'>React</span></li>
   </ul>
 </template>
 
@@ -67,5 +69,9 @@
 
   .echarts {
     color: #AA314D;
+  }
+
+  .weixin {
+    color: #07C160;
   }
 </style>
