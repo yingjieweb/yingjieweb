@@ -22,7 +22,7 @@
   import Vue from 'vue'
   import {Component} from "vue-property-decorator";
 
-  import projectDB from "@/database/project";
+  import projectDB from "@/database/projectDB";
 
   @Component
   export default class Project extends Vue{
