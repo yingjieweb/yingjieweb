@@ -19,3 +19,10 @@ type TProjectItem = {
   languages: string[]
   stars: number
 }
+
+type TWishListItem = {
+  name: string
+  status: 'done' | 'todo'
+  imgs?: string[]
+  date?: string
+}
