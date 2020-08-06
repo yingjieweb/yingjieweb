@@ -1,9 +1,17 @@
 const wishListDB: TWishListItem[] = [
   {
+    name: '去参观一次阿里',
+    status: 'done',
+    imgs: [
+      require('../assets/wishImages/visitAli.jpg')
+    ],
+    date: '2020-08-02'
+  },
+  {
     name: '开源项目 contributor',
     status: 'done',
     imgs: [
-        require('../assets/wishImages/contributor.jpg')
+      require('../assets/wishImages/contributor.jpg')
     ],
     date: '2020-07-07'
   },
@@ -264,10 +272,6 @@ const wishListDB: TWishListItem[] = [
   },
   {
     name: '学习如何健身',
-    status: 'todo'
-  },
-  {
-    name: '去参观一次阿里',
     status: 'todo'
   },
   {
