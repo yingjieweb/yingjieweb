@@ -38,7 +38,7 @@ const wishListDB: TWishListItem[] = [
     name: '开始人生第一份实习',
     status: 'done',
     imgs: [
-      require('../assets/wishImages/intern.jpg'),
+      require('../assets/wishImages/intern.jpg')
     ],
     date: '2019-12-24'
   },
@@ -48,18 +48,19 @@ const wishListDB: TWishListItem[] = [
     imgs: [
       require('../assets/wishImages/fountain1.jpg'),
       require('../assets/wishImages/fountain2.jpg'),
-      require('../assets/wishImages/fountain3.jpg'),
+      require('../assets/wishImages/fountain3.jpg')
     ],
     date: '2019-08-11'
   },
   {
-    name: '做考研辅导助教',
+    name: '去吉林旅游',
     status: 'done',
-    date: '2019-07-30'
-  },
-  {
-    name: '去蹭阿里大佬的饭',
-    status: 'done',
+    imgs: [
+      require('../assets/wishImages/travelJilin1.jpg'),
+      require('../assets/wishImages/travelJilin2.jpg'),
+      require('../assets/wishImages/travelJilin3.jpg'),
+      require('../assets/wishImages/travelJilin4.jpg')
+    ],
     date: '2019-07-20'
   },
   {
@@ -68,7 +69,7 @@ const wishListDB: TWishListItem[] = [
     date: '2019-07-10'
   },
   {
-    name: '去大连欢乐王国',
+    name: '去大连旅游',
     status: 'done',
     date: '2019-05-15'
   },
