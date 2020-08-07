@@ -12,7 +12,7 @@
       <span class="date">{{getDate(item.date)}}</span>
     </section>
 
-    <el-carousel v-if="show && item.imgs" height="500px" indicator-position="none" type="card">
+    <el-carousel v-if="show && item.imgs" indicator-position="none" type="card">
       <el-carousel-item class="img-wrapper" v-for="img in item.imgs" :key="img">
         <el-image class="img" :src="img" fit="contain" alt="img">
           <div slot="placeholder" class="img-slot">
