@@ -66,6 +66,9 @@ const wishListDB: TWishListItem[] = [
   {
     name: '徒手抓两个篮球',
     status: 'done',
+    imgs: [
+      require('../assets/wishImages/basketball.jpg')
+    ],
     date: '2019-07-10'
   },
   {
