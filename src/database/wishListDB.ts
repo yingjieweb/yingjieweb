@@ -74,7 +74,13 @@ const wishListDB: TWishListItem[] = [
   {
     name: '去大连旅游',
     status: 'done',
-    date: '2019-05-15'
+    imgs: [
+      require('../assets/wishImages/travelDalian1.jpg'),
+      require('../assets/wishImages/travelDalian2.jpg'),
+      require('../assets/wishImages/travelDalian3.jpg'),
+      require('../assets/wishImages/travelDalian4.jpg')
+    ],
+    date: '2019-06-17'
   },
   {
     name: '出门不嗑药',
@@ -82,7 +88,7 @@ const wishListDB: TWishListItem[] = [
     date: '2019-06-14'
   },
   {
-    name: '见大学的好伙伴',
+    name: '见大学的小伙伴',
     status: 'done',
     date: '2019-05-22'
   },
