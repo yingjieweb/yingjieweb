@@ -4,7 +4,7 @@
       <span>人生清单</span>
 
       <span>
-        <el-radio v-model="type" label="done">已完成</el-radio>
+        <el-radio v-model="type" label="done" style="margin-right: 1em;">已完成</el-radio>
         <el-radio v-model="type" label="todo">还在立Flag</el-radio>
       </span>
     </h1>
