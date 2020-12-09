@@ -1,5 +1,13 @@
 const wishListDB: TWishListItem[] = [
   {
+    name: '秋招拿到大厂 offer',
+    status: 'done',
+    imgs: [
+      require('../assets/wishImages/offers.jpg')
+    ],
+    date: '2020-11-12'
+  },
+  {
     name: '去参观一次阿里',
     status: 'done',
     imgs: [
