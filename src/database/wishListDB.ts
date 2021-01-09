@@ -1,5 +1,13 @@
 const wishListDB: TWishListItem[] = [
   {
+    name: '来一次泼水成冰',
+    status: 'done',
+    imgs: [
+      require('../assets/wishImages/waterIce.jpg')
+    ],
+    date: '2021-01-08'
+  },
+  {
     name: '秋招拿到大厂 offer',
     status: 'done',
     imgs: [
