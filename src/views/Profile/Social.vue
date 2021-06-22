@@ -4,7 +4,7 @@
       <svg class="icon" aria-hidden="true">
         <use :xlink:href="item.icon"></use>
       </svg>
-      <a :href="item.link" target="_blank">{{item.link}}</a>
+      <a :href="item.link" target="_blank">{{item.text}}</a>
     </li>
   </ul>
 </template>
@@ -17,9 +17,9 @@
   @Component
   export default class Social extends Vue {
     social = [
-      {label: '邮箱', icon: '#icon-mail', link: 'https://mail.qq.com/'},
-      {label: 'CSDN', icon: '#icon-csdn', link: 'https://blog.csdn.net/marker__'},
-      {label: 'Github', icon: '#icon-github', link: 'https://github.com/yingjieweb'}
+      {label: '邮箱', icon: '#icon-mail', text: '1184061078@qq.com', link: 'https://mail.qq.com/'},
+      {label: 'CSDN', icon: '#icon-csdn', text: 'https://blog.csdn.net/marker__', link: 'https://blog.csdn.net/marker__'},
+      {label: 'Github', icon: '#icon-github', text: 'https://github.com/yingjieweb', link: 'https://github.com/yingjieweb'}
     ]
   }
 </script>

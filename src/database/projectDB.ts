@@ -19,7 +19,7 @@ const projectDB: TProjectItem[] = [
     title: '学术导航站点',
     desc: '一款基于 jQuery 的前端学术导航站点，同时做了 PC 端和移动端适配。',
     github: 'https://github.com/yingjieweb/navigator',
-    document: 'http://yingjiesongi.gitee.io/navigator/dist/index.html',
+    document: 'https://yingjiesongi.gitee.io/navigator/',
     languages: ['jQuery'],
     stars: 0
   },
