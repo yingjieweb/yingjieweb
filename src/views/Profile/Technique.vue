@@ -28,50 +28,23 @@
 </script>
 
 <style scoped lang="scss">
+.tech-list {
+  list-style: disc;
   .highlight {
     padding: 0 2px;
     background: #EEEEEE;
     border: 1px solid #cfd8dc;
     border-radius: 3px;
   }
-
-  .pixel {
-    color: #E6A23C;
-  }
-
-  .jquery {
-    color: #0769AD;
-  }
-
-  .vue {
-    color: #41B883;
-  }
-
-  .ts {
-    color: #294E80;
-  }
-
-  .react {
-    color: #61DAFB;
-  }
-
-  .webpack {
-    color: #55A7DD;
-  }
-
-  .es6 {
-    color: #F9D121;
-  }
-
-  .git {
-    color: #FA4F2A;
-  }
-
-  .echarts {
-    color: #AA314D;
-  }
-
-  .weixin {
-    color: #07C160;
-  }
+  .pixel { color: #E6A23C; }
+  .jquery { color: #0769AD; }
+  .vue { color: #41B883; }
+  .ts { color: #294E80; }
+  .react { color: #61DAFB; }
+  .webpack { color: #55A7DD; }
+  .es6 { color: #F9D121; }
+  .git { color: #FA4F2A; }
+  .echarts { color: #AA314D; }
+  .weixin { color: #07C160; }
+}
 </style>

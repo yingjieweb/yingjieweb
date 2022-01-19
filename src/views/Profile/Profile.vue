@@ -3,11 +3,11 @@
     <div class="item">
       <h1>我</h1>
       <p>
-        一名前端小学生，本科毕业于 <a href="https://www.qfnu.edu.cn/" target="_blank">曲阜师范大学</a>，
-        目前正在 <a href="https://www.neu.edu.cn/" target="_blank">东北大学</a> 读研，都为软件工程专业。
+        一名前端小学生，<a href="https://www.neu.edu.cn/" target="_blank">东北大学</a> 软件工程硕士，
+        目前正在 <a href="https://www.sohu.com/" target="_blank">搜狐</a> 从事前端开发工作。
       </p>
       <p style="margin-top: 12px">
-        目前正在自学一些前端知识，希望以后能成为一名专业的前端开发工程师。
+        现阶段的打算是：努力学习前端知识 📌，争取三到五年能够成为一名高级前端工程师！👷
       </p>
 
       <el-button @click="showMore = !showMore" type="text">
