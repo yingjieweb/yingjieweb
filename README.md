@@ -11,7 +11,7 @@
   - 持续学习前端知识 📌，争取三到五年能够成为一名高级前端工程师！👷
 
 
-### Personal Projects 🌱
+### Personal projects 🌱
 下面是我在学习前端时写的一些个人项目 🧐， 如果你也有兴趣的话 🤩
 
 |   项目  |  简介  |  预览  |  源码  |  技术  |
@@ -23,7 +23,7 @@
 | dombox | 🌲 一个高效、精简、功能丰富的 JavaScript 工具库|[Link](https://github.com/yingjieweb/dombox)|[GitHub](https://github.com/yingjieweb/dombox)|<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="badge">|
 
 
-### Challenge 🎯
+### Experienced challenges 🎯
 下面是我在学习和工作中遇到的感觉比较有挑战性的项目，在此总结 🎉。
 - [高德地图「海量点标记 + 海量标注」卡顿问题 解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
 
