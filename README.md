@@ -15,11 +15,11 @@
 
 |   项目  |  简介  |  预览  |  源码  |  技术  |
 |   ---  |  ---   |  ---  |  ---  |  ---  |
-| league-ui| ⚙️ 英雄联盟 UI|[Link](http://yingjiesongi.gitee.io/league-ui-doc/#/intro)|[GitHub](https://github.com/yingjieweb/league-ui)|Vue、Sass|
-| yingjieweb| 👻 我的个人网站|[Link](http://yingjiesongi.gitee.io/yingjieweb/#/profile)|[GitHub](https://github.com/yingjieweb/yingjieweb)|Vue、Sass|
-|   charge   | 📒 小本本记账|[Link](http://yingjiesongi.gitee.io/charge/#/money)|[GitHub](https://github.com/yingjieweb/charge)|Vue / React|
-| navigator | 📡 小傻瓜导航|[Link](http://yingjiesongi.gitee.io/navigator/)|[GitHub](https://github.com/yingjieweb/navigator)|JQuery|
-| dombox | 🌲 My DOM API|[Link](https://github.com/yingjieweb/dombox)|[GitHub](https://github.com/yingjieweb/dombox)|JavaScript|
+| league-ui| ⚙️ 一款以英雄联盟网游为主题的 UI 组件库 |[Link](http://yingjiesongi.gitee.io/league-ui-doc/#/intro)|[GitHub](https://github.com/yingjieweb/league-ui)|Vue、Sass|
+| yingjieweb| 👻 个人网站，收集了我的部分博客、项目及人生清单|[Link](http://yingjiesongi.gitee.io/yingjieweb/#/profile)|[GitHub](https://github.com/yingjieweb/yingjieweb)|Vue、Sass|
+|   charge   | 📒 一款小记账应用，Vue 及 React 两个版本均有实现|[Link](http://yingjiesongi.gitee.io/charge/#/money)|[GitHub](https://github.com/yingjieweb/charge)|Vue / React|
+| navigator | 📡 小傻瓜导航，为女朋友量身定制，单身狗快撤 🤪|[Link](http://yingjiesongi.gitee.io/navigator/)|[GitHub](https://github.com/yingjieweb/navigator)|JQuery|
+| dombox | 🌲 一个高效、精简、功能丰富的 JavaScript 工具库|[Link](https://github.com/yingjieweb/dombox)|[GitHub](https://github.com/yingjieweb/dombox)|JavaScript|
 
 
 <!--
