@@ -25,7 +25,7 @@
 
 <details open>
   <summary>Challenge 🎯</summary>
-  <p>下面是我在学习和工作中遇到的感觉比较有挑战性的项目，在此总结 🎉。</p>
+  <p style="margin-top: 10px">下面是我在学习和工作中遇到的感觉比较有挑战性的项目，在此总结 🎉。</p>
 
   - [高德地图「海量点标记 + 海量标注」卡顿问题 解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
 </details>
