@@ -22,15 +22,10 @@
 | navigator | 📡 小傻瓜导航，为女朋友量身定制，单身狗快撤 🤪|[Link](http://yingjiesongi.gitee.io/navigator/)|[GitHub](https://github.com/yingjieweb/navigator)|<img src="https://img.shields.io/badge/JQuery-007ACC?style=flat-square&amp;logo=jquery&amp;logoColor=white" alt="badge">|
 | dombox | 🌲 一个高效、精简、功能丰富的 JavaScript 工具库|[Link](https://github.com/yingjieweb/dombox)|[GitHub](https://github.com/yingjieweb/dombox)|<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="badge">|
 
-<br />
 
-<details open>
-  <summary>Challenge 🎯</summary>
-  <br />
-  <p>下面是我在学习和工作中遇到的感觉比较有挑战性的项目，在此总结 🎉。</p>
-
-  - [高德地图「海量点标记 + 海量标注」卡顿问题 解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
-</details>
+### Challenge 🎯
+下面是我在学习和工作中遇到的感觉比较有挑战性的项目，在此总结 🎉。
+- [高德地图「海量点标记 + 海量标注」卡顿问题 解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
 
 <!--
     January 2nd, 2021 6:10 PM
