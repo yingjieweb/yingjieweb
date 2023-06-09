@@ -1,74 +1,68 @@
 import React, { useState } from "react";
-import classNames from "classnames";
 import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
-import styles from "./styles.module.scss";
+import classNames from "classnames";
 import { navItems } from "./constants";
+import styles from "./styles.module.scss";
 
 export interface NavItem {
   text: string;
-  toEl: string;
+  targetEl: string;
 }
 
 const Nav: React.FC = () => {
   const [activeItem, setActiveItem] = useState<string>("#home");
-  const [verticalVisible, setVerticalVisible] = useState<boolean>(false);
+  const [verticalNavVisible, setVerticalNavVisible] = useState<boolean>(false);
 
-  const scroll = (toEl: string) => {
-    const $toEl = document.querySelector(toEl);
-    if ($toEl) {
-      setActiveItem(toEl);
-      $toEl.scrollIntoView({ behavior: "smooth" });
+  const scrollTo = (targetEl: string) => {
+    const $targetEl = document.querySelector(targetEl);
+    if ($targetEl) {
+      setActiveItem(targetEl);
+      $targetEl.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.title}>
-        <span>Me</span>
-      </div>
+      <div className={styles.title}>Yingjieweb</div>
 
-      {/* 横版 nav */}
-      <ul className={styles.horizontal}>
+      <ul className={styles.horizontalNav}>
         {navItems.map((nav) => (
           <li
-            key={nav.toEl}
-            className={classNames({ [styles.active]: nav.toEl === activeItem })}
-            onClick={() => scroll(nav.toEl)}
+            key={nav.targetEl}
+            className={classNames({
+              [styles.active]: nav.targetEl === activeItem,
+            })}
+            onClick={() => scrollTo(nav.targetEl)}
           >
             {nav.text}
           </li>
         ))}
-        <li>
-          <a
-            href="https://github.yanhaixiang.com/resume"
-            target="_blank"
-            rel="noreferrer"
-          >
-            简历
-          </a>
+        <li
+          onClick={() => {
+            window.open("http://www.baidu.com");
+          }}
+        >
+          简历
         </li>
-
-        {/* 缩小版菜单栏 */}
         <li
           className={styles.navBtn}
-          onClick={() => setVerticalVisible(!verticalVisible)}
+          onClick={() => setVerticalNavVisible(!verticalNavVisible)}
         >
-          {verticalVisible ? <CloseOutlined /> : <MenuOutlined />}
+          {verticalNavVisible ? <CloseOutlined /> : <MenuOutlined />}
         </li>
       </ul>
 
-      {/* 竖版 nav */}
-      {verticalVisible && (
-        <ul className={styles.vertical}>
+      {verticalNavVisible && (
+        <ul className={styles.verticalNav}>
           {navItems.map((nav) => (
             <li
-              key={nav.toEl}
+              key={nav.targetEl}
               className={classNames({
-                [styles.active]: nav.toEl === activeItem,
+                [styles.active]: nav.targetEl === activeItem,
               })}
               onClick={() => {
-                setVerticalVisible(false);
-                scroll(nav.toEl);
+                setVerticalNavVisible(false);
+                scrollTo(nav.targetEl);
               }}
             >
               {nav.text}
