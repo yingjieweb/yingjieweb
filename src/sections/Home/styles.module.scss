@@ -1,0 +1,190 @@
+.home {
+  height: 100vh;
+  padding: 56px 24px 48px;
+  background-color: #fff;
+  background-image: url("../../assets/svgs/home.svg");
+  transform: translateZ(0);
+  position: relative;
+  .content {
+    height: 80%;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .intro {
+      padding-top: 8vh;
+      padding-left: 28px;
+      .sohu {
+        font-size: 1em;
+        font-weight: bold;
+        color: #fdd000;
+      }
+      .react {
+        font-size: 1em;
+        font-style: bold;
+        color: #61dafb;
+      }
+      .vue {
+        font-size: 1em;
+        font-style: bold;
+        color: rgb(64, 184, 131);
+      }
+      .sometime {
+        font-size: 1em;
+        font-style: bold;
+        // typed.js 的光标样式
+        & + span {
+          font-size: 1em;
+          font-style: bold;
+          color: #409eff !important;
+        }
+      }
+      .del {
+        position: relative;
+        &::before,
+        &::after {
+          content: "";
+          background: #409eff;
+          width: 120%;
+          height: 6px;
+          position: absolute;
+        }
+        &::before {
+          left: -10%;
+          top: 40%;
+        }
+        &::after {
+          left: -10%;
+          bottom: 30%;
+        }
+      }
+      p {
+        letter-spacing: 2px;
+        text-align: left;
+        font-size: 62px;
+        font-weight: 600;
+        color: #002245;
+        line-height: 1.5;
+      }
+    }
+    .avatarWrapper {
+      padding: 12px 12px 12px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .avatar {
+        position: relative;
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+        opacity: 0;
+        transition: all 0.3s;
+        div {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          animation: pulse 2s cubic-bezier(0.57, 0.06, 0.27, 0.84) infinite;
+          border: 4px solid #409eff;
+          border-radius: 50%;
+          background: transparent;
+          z-index: 1;
+        }
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+            border-color: #C6E2FF;
+          }
+          100% {
+            transform: scale(1.2);
+            border-color: transparent;
+          }
+        }
+      }
+    }
+  }
+  .arrowWrapper {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    .arrow {
+      > div {
+        height: 120px;
+        width: 120px;
+        cursor: pointer;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          border-radius: 50%;
+          transform: scale(0);
+          transition: all 0.3s;
+        }
+        &:hover {
+          &::after {
+            background-color: #8cc5ff;
+            opacity: 0.2;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .content {
+      .intro {
+        padding-top: 4vh;
+        p {
+          font-size: 2em;
+        }
+        .del {
+          &::before,
+          &::after {
+            top: 50%;
+          }
+        }
+      }
+      .avatarWrapper {
+        padding: 0;
+        .avatar {
+          height: 200px;
+          width: 200px;
+          font-size: 5em;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .content {
+      .intro {
+        padding-left: 0;
+        padding-top: 10px;
+        p {
+          line-height: 1.4em;
+          font-size: 1.7em;
+        }
+        .del {
+          &::before,
+          &::after {
+            top: 50%;
+          }
+        }
+      }
+    }
+  }
+}
