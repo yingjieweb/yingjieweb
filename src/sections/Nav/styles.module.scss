@@ -16,7 +16,7 @@
     padding: 2px 4px;
     font-size: 1.5em;
     font-weight: bold;
-    color: #689cc5;
+    color: #409EFF;
   }
   .horizontalNav {
     display: flex;
@@ -42,7 +42,7 @@
     &:hover,
     &.active,
     &.active a {
-      color: #689cc5;
+      color: #409EFF;
     }
     &.navBtn {
       display: none;
