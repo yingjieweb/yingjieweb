@@ -5,6 +5,7 @@ import Loading from "./components/Loading";
 import Nav from "./sections/Nav";
 
 const Home = React.lazy(() => import("./sections/Home"));
+const About = React.lazy(() => import("./sections/About"));
 
 const App: React.FC = () => {
   return (
@@ -12,7 +13,8 @@ const App: React.FC = () => {
       <Nav />
 
       <main>
-        <Home></Home>
+        <Home />
+        <About />
       </main>
     </Suspense>
   );
