@@ -37,13 +37,13 @@ const Nav: React.FC = () => {
             {nav.text}
           </li>
         ))}
-        <li
+        {/* <li
           onClick={() => {
-            window.open("http://www.baidu.com");
+            window.open("");
           }}
         >
           简历
-        </li>
+        </li> */}
         <li
           className={styles.navBtn}
           onClick={() => setVerticalNavVisible(!verticalNavVisible)}
