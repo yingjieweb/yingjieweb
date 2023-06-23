@@ -78,9 +78,7 @@ const Life: React.FC = () => {
           </span>,
         ]}
       />
-      <TimelineHeader>...</TimelineHeader>
-      <TimelineItem direction="left" header={["？？？"]} />
-      <TimelineHeader>💀 ⚰️</TimelineHeader>
+      <TimelineHeader>🤔...</TimelineHeader>
     </Timeline>
   );
 };

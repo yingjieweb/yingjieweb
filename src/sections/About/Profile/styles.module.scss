@@ -1,19 +1,16 @@
 .profile {
-  .details {
-    text-align: center;
-    p {
-      margin-bottom: 16px;
-    }
+  text-align: center;
+  .avatar {
+    max-width: 90%;
+    max-height: 300px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    box-shadow: 0 7px 17px 2px rgb(0 0 0 / 50%);
+  }
+  p {
+    margin-bottom: 16px;
   }
   .lottie {
     height: 200px;
-  }
-  .avatar {
-    padding: 50px 0;
-    img {
-      border-radius: 50%;
-      max-width: 100%;
-      box-shadow: 0 7px 17px 2px rgb(0 0 0 / 50%);
-    }
   }
 }

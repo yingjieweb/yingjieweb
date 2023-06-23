@@ -7,6 +7,7 @@ import Paragraph from "../../../components/Paragraph";
 import HighLight from "../../../components/HighLight";
 // styles
 import styles from "./styles.module.scss";
+import avatar from "../../../assets/images/avatar.jpg";
 
 const cubeLottie =
   "https://assets9.lottiefiles.com/private_files/lf30_ijlzmjq6.json";
@@ -16,16 +17,15 @@ const Profile: React.FC = () => {
 
   return (
     <Row gutter={36} className={styles.profile}>
-      <Col
-        lg={{ span: 11, order: 1 }}
-        span={24}
-        order={3}
-        className={styles.details}
-      >
+      <Col lg={{ span: 24, order: 1 }} span={24} order={3}>
+        <Fade bottom>
+          <img className={styles.avatar} src={avatar} alt="头像" />
+        </Fade>
+
         <Fade bottom>
           <Paragraph>
             一名 <HighLight>前端爱好者</HighLight> ，山东烟台人。 目前在{" "}
-            <HighLight>搜狐 @ 北京</HighLight> 从事前端开发。
+            <HighLight>搜狐 @ 北京</HighLight> 从事前端开发 🧱
           </Paragraph>
           <Paragraph>
             本科就读于省内的 <HighLight>曲阜师范大学 @ 济宁</HighLight>{" "}
@@ -61,19 +61,16 @@ const Profile: React.FC = () => {
         </Fade>
       </Col>
 
-      <Col
+      {/* <Col
         lg={{ span: 7, order: 2 }}
         span={14}
         order={1}
         className={styles.avatar}
       >
         <Fade bottom>
-          <img
-            src="https://avatars.githubusercontent.com/u/47938439?v=4"
-            alt="头像"
-          />
+          <img src={avatar} alt="头像" />
         </Fade>
-      </Col>
+      </Col> */}
     </Row>
   );
 };

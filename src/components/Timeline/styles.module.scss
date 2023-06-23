@@ -16,12 +16,11 @@
     height: 2em;
     align-items: center;
     justify-content: center;
-    font-family: SiYuanHeiTi, Helvetica, Arial, sans-serif;
     font-weight: bold;
     pointer-events: none;
     padding: 0 0.75em;
     line-height: 20px;
-    background-color: #bd0000 !important;
+    background-color: #409eff !important;
     font-size: 1rem;
     color: #fff;
     border-radius: 4px;
@@ -36,7 +35,7 @@
 
   &::before {
     content: "";
-    background-color: #c1004f;
+    background-color: #409eff;
     display: block;
     width: 2px;
     height: 100%;
@@ -49,15 +48,13 @@
     display: block;
     transform: translateX(-50%);
     top: 1.2rem;
-
     .defaultNode {
-      background-color: #12ffdc;
-      border-color: #12ffdc;
+      background-color: #409eff;
+      border-color: #409eff;
       height: 12px;
       width: 12px;
       border-radius: 100%;
     }
-
     img {
       border-radius: 50%;
     }
