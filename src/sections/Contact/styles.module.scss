@@ -1,6 +1,8 @@
 .contact {
   height: 100vh;
   background-image: url("../../assets/svgs/home-bg.svg");
+  display: flex;
+  align-items: center;
   .container {
     position: relative;
     padding: 48px 56px;

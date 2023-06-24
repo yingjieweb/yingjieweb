@@ -4,13 +4,13 @@
   background-color: #fff;
   background-image: url("../../assets/svgs/home-bg.svg");
   transform: translateZ(0);
+  display: flex;
+  justify-content: center;
   position: relative;
   .content {
     height: 80%;
-    max-width: 1400px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     .intro {
       padding-top: 8vh;
       padding-left: 28px;
