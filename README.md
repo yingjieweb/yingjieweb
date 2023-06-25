@@ -32,9 +32,7 @@
 - [RBAC-checkbox-tree-demo](https://github.com/yingjieweb/RBAC-checkbox-tree-demo) - 一款基于角色的访问控制 checkbox 树形组件 - [Try or preview?](https://yingjieweb.github.io/RBAC-checkbox-tree-demo/)
 - [diy-h5-platform-demo](https://github.com/yingjieweb/diy-h5-platform-demo) - 一个支持拖拽式、可视化的自制 H5 低代码平台 - [Try or preview?]() // Todo
 
-<div style="display: flex; align-items: center;">
-  🚩 Visitor counts: &nbsp;<img src="https://profile-counter.glitch.me/Chocolate1999/count.svg" alt="" />
-</div>
+<img src="https://profile-counter.glitch.me/yingjieweb/count.svg" alt="" /> 🚩
 
 
 <!--
