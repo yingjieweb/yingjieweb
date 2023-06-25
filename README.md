@@ -1,4 +1,4 @@
-# Hello there 👋
+# 👋 Hello, I'm yingjieweb 
 
 - 一名前端爱好者，希望自己能不忘初心，踏踏实实学点前端 👻
 - 山东烟台人，东北大学软件工程硕士，目前在搜狐从事前端开发 🧱
@@ -16,7 +16,7 @@
 
 |   项目  |  简介  |  预览  |  源码  |  技术  |
 |   ---   |  ---   |  ---  |  ---   |  ---  |
-| **yingjieweb** | 👻 个人网站，收集了我的部分博客、项目及人生清单|[Preview](https://yingjieweb.github.io/yingjieweb/)|[GitHub](https://github.com/yingjieweb/yingjieweb)|<img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> <img src="https://img.shields.io/badge/TS-007ACC?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Ant Design-0170FE?style=flat-square&amp;logo=antdesign&amp;logoColor=white" alt="badge">|
+| **yingjieweb** | 👻 个人网站，收集了我的部分博客、项目及人生清单|[Preview](https://yingjieweb.github.io)|[GitHub](https://github.com/yingjieweb/yingjieweb)|<img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> <img src="https://img.shields.io/badge/TS-007ACC?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Ant Design-0170FE?style=flat-square&amp;logo=antdesign&amp;logoColor=white" alt="badge">|
 | **league-ui** | ⚙️ 一款以英雄联盟网游为主题的 UI 组件库 |[Preview](http://yingjiesongi.gitee.io/league-ui-doc/#/intro)|[GitHub](https://github.com/yingjieweb/league-ui)|<img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&amp;logo=sass&amp;logoColor=white" alt="badge">|
 | **campus** | 🎓 读书时做的大学生就业推荐系统，仅前端展示部分|[Preview](https://yingjieweb.github.io/campus/#/login)|[GitHub](https://github.com/yingjieweb/campus)|<img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Element UI-409eff?style=flat-square&amp;logo=Element&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/ECharts-AA344D?style=flat-square&amp;logo=apacheecharts&amp;logoColor=white" alt="badge">|
 | **navigator** | 📡 小傻瓜导航，为女朋友量身定制，单身狗快撤 🤪|[Preview](http://yingjiesongi.gitee.io/navigator/)|[GitHub](https://github.com/yingjieweb/navigator)|<img src="https://img.shields.io/badge/JQuery-007ACC?style=flat-square&amp;logo=jquery&amp;logoColor=white" alt="badge">|
@@ -31,6 +31,10 @@
 - [dnd-draggable-tree-demo](https://github.com/yingjieweb/dnd-draggable-tree-demo) - 一款基于 dnd-kit 的可拖拽的多层级树形组件 - [Try or preview?](https://yingjieweb.github.io/dnd-draggable-tree-demo/)
 - [RBAC-checkbox-tree-demo](https://github.com/yingjieweb/RBAC-checkbox-tree-demo) - 一款基于角色的访问控制 checkbox 树形组件 - [Try or preview?](https://yingjieweb.github.io/RBAC-checkbox-tree-demo/)
 - [diy-h5-platform-demo](https://github.com/yingjieweb/diy-h5-platform-demo) - 一个支持拖拽式、可视化的自制 H5 低代码平台 - [Try or preview?]() // Todo
+
+<div style="display: flex; align-items: center;">
+  🚩 Visitor counts: &nbsp;<img src="https://profile-counter.glitch.me/Chocolate1999/count.svg" alt="" />
+</div>
 
 
 <!--
