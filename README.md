@@ -33,6 +33,16 @@
 - [RBAC-checkbox-tree-demo](https://github.com/yingjieweb/RBAC-checkbox-tree-demo) - 一款基于角色的访问控制 checkbox 树形组件 - [Try or preview?](https://yingjieweb.github.io/RBAC-checkbox-tree-demo/)
 - [diy-h5-platform-demo](https://github.com/yingjieweb/diy-h5-platform-demo) - 一个支持拖拽式、可视化的自制 H5 低代码平台 - [Try or preview?](https://yingjieweb.github.io/diy-h5-platform-demo/)
 
+## My recent blogs 📔
+
+平时在学习新知识或解决了某些疑难问题的时候，喜欢记录博客加深印象 📝
+
+- [研究一下「pnpm」这个神奇的包管理工具](https://blog.csdn.net/Marker__/article/details/131591549?spm=1001.2014.3001.5501)
+- [知道了，去卷后端 →「Nest.js 入门及实践」：）](https://blog.csdn.net/Marker__/article/details/131330275?spm=1001.2014.3001.5501)
+- [高德地图「海量点标记 + 海量标注」卡顿问题 解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
+- [使用 svg-sprite-loader、svgo-loader 优化 svg symbols](https://blog.csdn.net/Marker__/article/details/123913946?spm=1001.2014.3001.5501)
+- More blogs... [CSND](https://blog.csdn.net/Marker__)、[掘金](https://juejin.cn/user/2576910988098888)
+
 ## My technology stacks 🛠
 
 <div style="flex">
