@@ -43,7 +43,7 @@
 - [高德地图「海量点标记 + 海量标注」卡顿问题 解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
 - [使用 svg-sprite-loader、svgo-loader 优化 svg symbols](https://blog.csdn.net/Marker__/article/details/123913946?spm=1001.2014.3001.5501)
 - [浅谈 Web 前端性能优化](https://blog.csdn.net/Marker__/article/details/122262923?spm=1001.2014.3001.5501)
-- My more blogs... [CSND](https://blog.csdn.net/Marker__)、[掘金](https://juejin.cn/user/2576910988098888)
+- More blogs... [CSND](https://blog.csdn.net/Marker__)、[掘金](https://juejin.cn/user/2576910988098888)
 
 ## 🛠 My technology stacks
 
