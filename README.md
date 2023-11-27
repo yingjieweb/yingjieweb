@@ -17,8 +17,8 @@
 - Beyond coding, I find pleasure in playing basketball 🏀 with friends and maintaining a healthy lifestyle 🏋...
 - Childhood dream was to be an astronaut 👨‍🚀, at this stage, I focused on more immediate goals rather than grand aspirations.
 - Current short-term goals:
-  - ~~Successfully secured an offer from a top-tier company during the fall recruiting season 💪, and graduated smoothly on July 14, 2021 👨‍🎓~~ ✅
-  - Continuing to deepen my frontend knowledge 📌, with the aim of evolving into a senior frontend engineer within the next three to five years! 👷
+  - ~~Successfully secured an offer from a top company 💪, and graduated smoothly 👨‍🎓~~ July 14, 2021 ✅ 
+  - Evolving into a senior frontend engineer 👷 within the next three to five years! 🎯
 
 ## 🌱 Personal projects
 
@@ -37,7 +37,7 @@ Here are some personal projects I wrote while learning front-end 🧐. If you ar
 
 ## 🎯 Experienced challenges
 
-Here is a summary of the projects I have encountered during my studies and work that I found to be particularly challenging. 🤔️
+Summary of the projects I have encountered during my studies and work that I found to be particularly challenging. 🤔️
 
 - [amap-optimization-demo](https://github.com/yingjieweb/amap-optimization-demo) - [高德地图「海量点标记 + 海量标注」卡顿问题 解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501) - [Try or preview?](https://yingjieweb.github.io/amap-optimization-demo/)
 - [dnd-draggable-tree-demo](https://github.com/yingjieweb/dnd-draggable-tree-demo) - 一款基于 dnd-kit 的可拖拽的多层级树形组件 - [Try or preview?](https://yingjieweb.github.io/dnd-draggable-tree-demo/)
@@ -46,7 +46,7 @@ Here is a summary of the projects I have encountered during my studies and work 
 
 ## 📔 My recent blogs
 
-I like to document learning of new knowledge or the resolution of challenging problems in blogs to deepen my understanding. 📝
+Document learning of new knowledge or the resolution of challenging problems in blogs to deepen my understanding. 📝
 
 - [浅谈一下 webpack 以及 loader 和 plugin](https://blog.csdn.net/Marker__/article/details/131624789?spm=1001.2014.3001.5501)
 - [研究一下「pnpm」这个神奇的包管理工具](https://blog.csdn.net/Marker__/article/details/131591549?spm=1001.2014.3001.5501)
