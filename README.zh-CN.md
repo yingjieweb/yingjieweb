@@ -1,3 +1,13 @@
+<p align="center">
+  <a href="https://github.com/yingjieweb/yingjieweb" target="_black">
+    <img src="https://img.shields.io/badge/English-blue" alert="English" />
+  </a>
+  <a href="https://github.com/yingjieweb/yingjieweb/blob/master/README.zh-CN.md" target="_black">
+    <img src="https://img.shields.io/badge/简体中文-blue" alert="简体中文" />
+  </a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
+</p>
+
 ## 👋 Hello, I'm Yingjieweb
 
 - 一名前端爱好者，希望自己能不忘初心，踏踏实实学点前端 👻
