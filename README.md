@@ -10,13 +10,12 @@
 
 ## 👋 Hello, I'm Yingjieweb
 
-- Passionate about frontend development, dedicated to staying true to my initial aspirations 👻
-- Hailing from Yantai, Shandong, China 🇨🇳, I am a Master's student in Software Engineering at Northeastern University.
-- Currently employed as a frontend developer at @FTA in Nanjing, previously with @Sohu in Beijing 🧱
-- Personally inclined towards frontend over backend and algorithms, believing in the joy of pursuing one's passion 😁
-- Beyond coding, I find pleasure in playing basketball 🏀 with friends and maintaining a healthy lifestyle 🏋...
-- Childhood dream was to be an astronaut 👨‍🚀, at this stage, I focused on more immediate goals rather than grand aspirations.
-- Current short-term goals:
+- Passionate about frontend development, committed to remaining true to my initial aspirations 👻.
+- Originally from Yantai, Shandong, China 🇨🇳, I hold a Master's degree in Software Engineering from Northeastern University.
+- Currently serving as a frontend developer at @FTA in Nanjing, previously contributing to @Sohu in Beijing 🧱.
+- Personally inclined towards frontend rather than backend and algorithms, embracing the joy of pursuing one's passion 😁.
+- Beyond coding, I take pleasure in playing basketball 🏀 with friends and maintaining a healthy lifestyle 🏋...
+- My childhood dream was to be an astronaut 👨‍🚀, but now, I am focused on more immediate goals rather than grand aspirations.
   - ~~Successfully secured an offer from a top company 💪, and graduated smoothly 👨‍🎓~~ July 14, 2021 ✅ 
   - Evolving into a senior frontend engineer 👷 within the next three to five years! 🎯
 
