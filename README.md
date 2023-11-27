@@ -1,5 +1,3 @@
-## 👋 Hello, I'm Yingjieweb
-
 <p align="center">
   <a href="https://github.com/yingjieweb/yingjieweb" target="_black">
     <img src="https://img.shields.io/badge/English-blue" alert="English" />
@@ -10,12 +8,14 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
 </p>
 
+## 👋 Hello, I'm Yingjieweb
+
 - Passionate about frontend development, dedicated to staying true to my initial aspirations 👻
 - Hailing from Yantai, Shandong, China 🇨🇳, I am a Master's student in Software Engineering at Northeastern University.
 - Currently employed as a frontend developer at @FTA in Nanjing, previously with @Sohu in Beijing 🧱
-- Personally inclined towards frontend development over backend and algorithms, believing in the joy of pursuing one's passion 😁
+- Personally inclined towards frontend over backend and algorithms, believing in the joy of pursuing one's passion 😁
 - Beyond coding, I find pleasure in playing basketball 🏀 with friends and maintaining a healthy lifestyle 🏋...
-- Childhood dream was to become an astronaut 👨‍🚀, at this stage in life, I focused on more immediate goals rather than grand aspirations.
+- Childhood dream was to be an astronaut 👨‍🚀, at this stage, I focused on more immediate goals rather than grand aspirations.
 - Current short-term goals:
   - ~~Successfully secured an offer from a top-tier company during the fall recruiting season 💪, and graduated smoothly on July 14, 2021 👨‍🎓~~ ✅
   - Continuing to deepen my frontend knowledge 📌, with the aim of evolving into a senior frontend engineer within the next three to five years! 👷
@@ -24,16 +24,16 @@
 
 Here are some personal projects I wrote while learning front-end 🧐. If you are interested, please give me a star 🤩.
 
-|   Projects  |  Description	  |  Preview  |  Code  |  Technologies  |
-|   -------   |  ------------   |  -------  |  ----- |  ------------  |
-| **yingjieweb** | 👻 Personal website, collecting some of my blogs, projects, etc. | [Preview](https://yingjieweb.github.io) | [GitHub](https://github.com/yingjieweb/yingjieweb) | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> <img src="https://img.shields.io/badge/TS-007ACC?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Ant Design-0170FE?style=flat-square&amp;logo=antdesign&amp;logoColor=white" alt="badge"> |
-| **league-ui** | ⚙️ UI component library with a theme based on the League of Legends | [Preview](http://yingjiesongi.gitee.io/league-ui-doc/#/intro) | [GitHub](https://github.com/yingjieweb/league-ui) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&amp;logo=sass&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&amp;logo=npm&amp;logoColor=white" alt="badge"> |
-| **truck-cli** | 🚚 Command line tool to simplify frontend development workflow | [Preview](https://github.com/yingjieweb/truck-cli#-truck-cli) | [GitHub](https://github.com/yingjieweb/truck-cli) | <img src="https://img.shields.io/badge/Node-339933?style=flat-square&amp;logo=node.js&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&amp;logo=npm&amp;logoColor=white" alt="badge"> |
-| **campus** | 🎓 College student employment recommendation system (frontend only) | [Preview](https://yingjieweb.github.io/campus/#/login) | [GitHub](https://github.com/yingjieweb/campus) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Element UI-409eff?style=flat-square&amp;logo=Element&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/ECharts-AA344D?style=flat-square&amp;logo=apacheecharts&amp;logoColor=white" alt="badge"> |
-| **navigator**  | 📡 Little fool's navigation, customized for my girlfriend, single dogs retreat 🤪 | [Preview](http://yingjiesongi.gitee.io/navigator/) | [GitHub](https://github.com/yingjieweb/navigator)  | <img src="https://img.shields.io/badge/JQuery-007ACC?style=flat-square&amp;logo=jquery&amp;logoColor=white" alt="badge"> |
-| **charge** | 📒 A small note-taking application, implemented in both Vue and React versions | [Preview](http://yingjiesongi.gitee.io/charge/#/money) | [GitHub](https://github.com/yingjieweb/charge) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> |
-| **sunshine** | ✨ Mainly developing some interesting CSS animation effects | [Preview](https://yingjieweb.github.io/sunshine/#/hypnosis-circle) | [GitHub](https://github.com/yingjieweb/sunshine) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&amp;logo=sass&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white" alt="badge"> |
-| **dombox** | 🌲 A high-efficiency, streamlined, and feature-rich JavaScript utility library | [Preview](https://github.com/yingjieweb/dombox) | [GitHub](https://github.com/yingjieweb/dombox) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="badge"> |
+|   Projects  |  Description	  |  Preview  |  Technologies  |
+|   -------   |  ------------   |  -------  |  ------------  |
+| **[yingjieweb](https://github.com/yingjieweb/yingjieweb)** | 👻 Personal website, collecting some of my blogs, projects, etc. | [Preview](https://yingjieweb.github.io) | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> <img src="https://img.shields.io/badge/TS-007ACC?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Ant Design-0170FE?style=flat-square&amp;logo=antdesign&amp;logoColor=white" alt="badge"> |
+| **[league-ui](https://github.com/yingjieweb/league-ui)** | ⚙️ UI component library with a theme based on the League of Legends | [Preview](http://yingjiesongi.gitee.io/league-ui-doc/#/intro) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&amp;logo=sass&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&amp;logo=npm&amp;logoColor=white" alt="badge"> |
+| **[truck-cli](https://github.com/yingjieweb/truck-cli)** | 🚚 Command line tool to simplify frontend development workflow | [Preview](https://github.com/yingjieweb/truck-cli#-truck-cli) | <img src="https://img.shields.io/badge/Node-339933?style=flat-square&amp;logo=node.js&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&amp;logo=npm&amp;logoColor=white" alt="badge"> |
+| **[campus](https://github.com/yingjieweb/campus)** | 🎓 College student employment recommendation system (frontend only) | [Preview](https://yingjieweb.github.io/campus/#/login) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Element UI-409eff?style=flat-square&amp;logo=Element&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/ECharts-AA344D?style=flat-square&amp;logo=apacheecharts&amp;logoColor=white" alt="badge"> |
+| **[navigator](https://github.com/yingjieweb/navigator)** | 📡 Little fool's navigation, customized for my girlfriend, single dogs retreat 🤪 | [Preview](http://yingjiesongi.gitee.io/navigator/) | <img src="https://img.shields.io/badge/JQuery-007ACC?style=flat-square&amp;logo=jquery&amp;logoColor=white" alt="badge"> |
+| **[charge](https://github.com/yingjieweb/charge)** | 📒 A small note-taking application, implemented in both Vue and React versions | [Preview](http://yingjiesongi.gitee.io/charge/#/money) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> |
+| **[sunshine](https://github.com/yingjieweb/sunshine)** | ✨ Mainly developing some interesting CSS animation effects | [Preview](https://yingjieweb.github.io/sunshine/#/hypnosis-circle) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&amp;logo=sass&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white" alt="badge"> |
+| **[dombox](https://github.com/yingjieweb/dombox)** | 🌲 A high-efficiency, streamlined, and feature-rich JavaScript utility library | [Preview](https://github.com/yingjieweb/dombox) | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="badge"> |
 
 ## 🎯 Experienced challenges
 
@@ -46,7 +46,7 @@ Here is a summary of the projects I have encountered during my studies and work 
 
 ## 📔 My recent blogs
 
-I like to document my learning of new knowledge or the resolution of challenging problems in blogs to deepen my understanding. 📝
+I like to document learning of new knowledge or the resolution of challenging problems in blogs to deepen my understanding. 📝
 
 - [浅谈一下 webpack 以及 loader 和 plugin](https://blog.csdn.net/Marker__/article/details/131624789?spm=1001.2014.3001.5501)
 - [研究一下「pnpm」这个神奇的包管理工具](https://blog.csdn.net/Marker__/article/details/131591549?spm=1001.2014.3001.5501)
