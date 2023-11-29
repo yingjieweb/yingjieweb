@@ -1,6 +1,6 @@
-<h2> 👋 Hello, I'm Yingjieweb
+<h2> 👋 Hello, I'm Yingjieweb 
   <a href="https://github.com/yingjieweb/yingjieweb/blob/master/README.zh-CN.md" target="_black">
-    <img src="https://img.shields.io/badge/简体中文-blue" alert="简体中文" style="margin-left: 50px" />
+    <img src="https://img.shields.io/badge/简体中文-blue" alert="简体中文" style="marginLeft: 50px" />
     <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
   </a>
 </h2>
