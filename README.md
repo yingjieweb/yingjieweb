@@ -1,14 +1,12 @@
-<p align="center">
-  <a href="https://github.com/yingjieweb/yingjieweb" target="_black">
-    <img src="https://img.shields.io/badge/English-blue" alert="English" />
-  </a>
-  <a href="https://github.com/yingjieweb/yingjieweb/blob/master/README.zh-CN.md" target="_black">
+<h2> 👋 Hello, I'm Yingjieweb
+  <a href="https://github.com/yingjieweb/yingjieweb/blob/master/README.zh-CN.md"
+     target="_black"
+     style="margin-left: 50px">
     <img src="https://img.shields.io/badge/简体中文-blue" alert="简体中文" />
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
   </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
-</p>
+</h2>
 
-## 👋 Hello, I'm Yingjieweb
 
 - Passionate about frontend development, committed to remaining true to my initial aspirations 👻.
 - Originally from Yantai, Shandong, China 🇨🇳, I hold a Master's degree in Software Engineering from Northeastern University.
