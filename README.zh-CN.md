@@ -1,14 +1,10 @@
-<p align="center">
-  <a href="https://github.com/yingjieweb/yingjieweb" target="_black">
+<h2> 👋 Hello, I'm Yingjieweb
+  <a href="https://github.com/yingjieweb/yingjieweb" target="_black"
+     style="margin-left: 50px">
     <img src="https://img.shields.io/badge/English-blue" alert="English" />
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
   </a>
-  <a href="https://github.com/yingjieweb/yingjieweb/blob/master/README.zh-CN.md" target="_black">
-    <img src="https://img.shields.io/badge/简体中文-blue" alert="简体中文" />
-  </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
-</p>
-
-## 👋 Hello, I'm Yingjieweb
+</h2>
 
 - 一名前端爱好者，希望自己能不忘初心，踏踏实实学点前端 👻
 - 山东烟台人，东北大学软件工程硕士，目前在搜狐从事前端开发 🧱
@@ -80,7 +76,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="40" height="40" alt="chrome"/>
 </div>
 
-<img src="https://profile-counter.glitch.me/yingjieweb/count.svg" />
+<!-- <img src="https://profile-counter.glitch.me/yingjieweb/count.svg" /> -->
 
 <!--
     January 2nd, 2021 6:10 PM
