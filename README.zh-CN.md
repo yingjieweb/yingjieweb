@@ -1,6 +1,5 @@
-<h2> 👋 Hello, I'm Yingjieweb
-  <a href="https://github.com/yingjieweb/yingjieweb" target="_black"
-     style="margin-left: 50px">
+<h2> 👋 Hello, I'm Yingjieweb 
+  <a href="https://github.com/yingjieweb/yingjieweb" target="_black">
     <img src="https://img.shields.io/badge/English-blue" alert="English" />
     <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
   </a>
