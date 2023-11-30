@@ -33,10 +33,10 @@ Here are some personal projects I wrote while learning front-end 🧐. If you ar
 
 Summary of the projects I have encountered during my studies and work that I found to be particularly challenging. 🤔️
 
-- [amap-optimization-demo](https://github.com/yingjieweb/amap-optimization-demo) - [Gaode map "mass point mark + mass mark" delay problem solution](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501) - [Try or preview?](https://yingjieweb.github.io/amap-optimization-demo/)
+- [amap-optimization-demo](https://github.com/yingjieweb/amap-optimization-demo) - [AMap "mass point mark + mass label" delay problem solution](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501) - [Try or preview?](https://yingjieweb.github.io/amap-optimization-demo/)
 - [dnd-draggable-tree-demo](https://github.com/yingjieweb/dnd-draggable-tree-demo) - A draggable multi-level tree component based on dnd-kit - [Try or preview?](https://yingjieweb.github.io/dnd-draggable-tree-demo/)
 - [RBAC-checkbox-tree-demo](https://github.com/yingjieweb/RBAC-checkbox-tree-demo) - A checkbox tree component for role-based access control - [Try or preview?](https://yingjieweb.github.io/RBAC-checkbox-tree-demo/)
-- [diy-h5-platform-demo](https://github.com/yingjieweb/diy-h5-platform-demo) - A self-made H5 low code platform that - [Try or preview?](https://yingjieweb.github.io/diy-h5-platform-demo/)
+- [diy-h5-platform-demo](https://github.com/yingjieweb/diy-h5-platform-demo) - A simple self-made H5 low code platform - [Try or preview?](https://yingjieweb.github.io/diy-h5-platform-demo/)
 
 ## 📔 My recent blogs
 
@@ -44,8 +44,8 @@ Document learning of new knowledge or the resolution of challenging problems in 
 
 - [A little bit about webpack and loader and plugin](https://blog.csdn.net/Marker__/article/details/131624789?spm=1001.2014.3001.5501)
 - [Take a look at the amazing package management tool "pnpm"](https://blog.csdn.net/Marker__/article/details/131591549?spm=1001.2014.3001.5501)
-- [Getting started with Nest.js and getting practice](https://blog.csdn.net/Marker__/article/details/131330275?spm=1001.2014.3001.5501)
-- [Gaode map "mass point mark + mass mark" delay problem solution](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
+- [Getting started with Nest.js and getting practiced](https://blog.csdn.net/Marker__/article/details/131330275?spm=1001.2014.3001.5501)
+- [Amap "mass point mark + mass label" delay problem solution](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
 - [Optimize svg symbols using svg-sprite-loader and svgo-loader](https://blog.csdn.net/Marker__/article/details/123913946?spm=1001.2014.3001.5501)
 - [Discussion on Web front-end performance optimization](https://blog.csdn.net/Marker__/article/details/122262923?spm=1001.2014.3001.5501)
 - More blogs... [CSND](https://blog.csdn.net/Marker__)、[JueJin](https://juejin.cn/user/2576910988098888)
