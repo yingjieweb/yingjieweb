@@ -33,19 +33,13 @@ const Contact: React.FC = () => (
               </a>
             </li>
           ))}
+          <li onClick={() => (window.location.href = emailStr)}>
+            <div>📮</div>
+          </li>
         </ul>
-
-        <p className={styles.subTitle}>👍 求赞，求关注，求转发，一键三连！</p>
-
-        <Button
-          onClick={() => (window.location.href = emailStr)}
-          className={styles.emailBtn}
-          bg="#53A8FF"
-        >
-          yingjieweb@qq.com
-        </Button>
       </div>
     </Fade>
+    <audio></audio>
   </Section>
 );
 
