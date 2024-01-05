@@ -9,6 +9,7 @@ import HighLight from "../../../components/HighLight";
 import qfnu from "../../../assets/icons/qfnu.png";
 import neu from "../../../assets/icons/neu.png";
 import sohu from "../../../assets/icons/sohu.png";
+import fta from "../../../assets/icons/fta.png";
 // styles
 import styles from "./styles.module.scss";
 
@@ -67,16 +68,34 @@ const Life: React.FC = () => {
         time="7月"
         node={
           <span className={styles.customNode}>
-            <img width={70} src={sohu} alt="tencent" />
+            <img width={70} src={sohu} alt="sohu" />
           </span>
         }
         header={[
           "海淀，北京",
           <span className={styles.position}>
-            入职 <HighLight>搜狐</HighLight> 🐧 @{" "}
+            入职 <HighLight>@搜狐</HighLight> 🦊
+            <span className={styles.typed} />
+          </span>,
+        ]}
+      />
+      <TimelineHeader>2023</TimelineHeader>
+      <TimelineItem
+        direction="right"
+        time="9月"
+        node={
+          <span className={styles.customNode}>
+            <img width={70} src={fta} alt="FTA" />
+          </span>
+        }
+        header={[
+          "南京，江苏",
+          <span className={styles.position}>
+            入职 <HighLight>@满帮</HighLight> 🚚 {" "}
             <span className={styles.typed} ref={el} />
           </span>,
         ]}
+        content={["和女朋友结束异地恋啦！🎉"]}
       />
       <TimelineHeader>🤔...</TimelineHeader>
     </Timeline>
