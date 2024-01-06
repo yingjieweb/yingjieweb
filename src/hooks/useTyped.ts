@@ -16,7 +16,7 @@ const useTyped = (strings: string[], extra?: TypedOptions) => {
     typed.current = new Typed(el.current || "", options);
 
     return () => typed.current?.destroy();
-  }, [strings]);
+  }, [strings, extra]);
 
   return el;
 };

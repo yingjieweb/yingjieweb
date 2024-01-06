@@ -19,7 +19,7 @@ const useLottie = (path: string, extra?: AnimationConfigWithData) => {
         item.destroy();
       };
     }
-  }, []);
+  }, [extra, path]);
 
   return lottieRef;
 };

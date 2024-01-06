@@ -26,10 +26,10 @@ import karma from "../../assets/icons/karma.png";
 import mocha from "../../assets/icons/mocha.png";
 import sinon from "../../assets/icons/sinon.png";
 import travis from "../../assets/icons/travis.webp";
-import jest from "../../assets/icons/jest.png";
-import hljs from "../../assets/icons/hljs.png";
-import python from "../../assets/icons/python.png";
-import eslint from "../../assets/icons/eslint.png";
+// import jest from "../../assets/icons/jest.png";
+// import hljs from "../../assets/icons/hljs.png";
+// import python from "../../assets/icons/python.png";
+// import eslint from "../../assets/icons/eslint.png";
 
 // league-ui
 import leagueoflegendsLogo from "../../assets/icons/lol-logo.png";

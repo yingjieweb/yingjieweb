@@ -2,7 +2,6 @@ import React from "react";
 // components
 import Fade from "react-reveal/Fade";
 import Section from "../../components/Section";
-import Button from "../../components/Button";
 import Title from "../../components/Title";
 // utils
 import { detectMobile } from "../../utils";
