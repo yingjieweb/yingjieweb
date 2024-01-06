@@ -15,7 +15,7 @@ jobs:
 
       - name: Set base for GitHub Pages
         run: |
-          sed -i 's/"homepage": ".*"/"homepage": "\/yingjieweb\/"/g' package.json
+          sed -i 's/"homepage": "\/"/"homepage": "\/yingjieweb\/"/g' package.json
 
       - name: Set up Node.js 18
         uses: actions/setup-node@v2
@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run docs:build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
