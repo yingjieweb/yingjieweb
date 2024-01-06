@@ -15,7 +15,7 @@ jobs:
 
       - name: Set base for GitHub Pages
         run: |
-          npm run update-package-json --field=homepage --value=/yingjieweb/
+          sed -i 's/"homepage": "/"/"homepage": "\/yingjieweb\/"/g' package.json
 
       - name: Set up Node.js 18
         uses: actions/setup-node@v2
