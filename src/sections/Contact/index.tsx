@@ -42,7 +42,9 @@ const Contact: React.FC = () => {
         </div>
       </Fade>
 
-      <AudioContainer></AudioContainer>
+      <div className={styles.audioBgCanvas}>
+        <AudioContainer></AudioContainer>
+      </div>
 
       {/* read some message about self introduction？ */}
       {/* <div>
@@ -52,7 +54,7 @@ const Contact: React.FC = () => {
         technologies.
       </div> */}
 
-      {/* <Fade bottom>
+      <Fade bottom>
         <div className={styles.footer}>
           <Input placeholder="随便讲两句吧 😉"></Input>
           <Button
@@ -69,7 +71,7 @@ const Contact: React.FC = () => {
             发送
           </Button>
         </div>
-      </Fade> */}
+      </Fade>
     </Section>
   );
 };

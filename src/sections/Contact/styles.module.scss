@@ -62,6 +62,13 @@
       }
     }
   }
+  .audioBgCanvas {
+    border: 1px solid red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
   .footer {
     width: 100vw;
     padding: 20px;

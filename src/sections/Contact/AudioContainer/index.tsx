@@ -3,7 +3,6 @@ import { detectMobile } from "../../../utils";
 
 const isMobile = detectMobile();
 const audio = require("../../../assets/audios/triumph.mp3");
-const canvasSize = isMobile ? 150 : 400;
 let source: any, buffer: any;
 
 const AudioContainer = () => {
@@ -18,10 +17,6 @@ const AudioContainer = () => {
     if (!canvasRef.current) return;
     const canvas = canvasRef.current;
     const canvasCtx = canvas.getContext("2d");
-    if (!canvasCtx) return;
-    canvas.width = canvasSize * devicePixelRatio;
-    canvas.height = canvasSize * devicePixelRatio;
-    canvas.style.width = canvas.style.height = canvasSize + "px";
     setCurCanvas(canvas);
     setCurCanvasCtx(canvasCtx);
   };
@@ -57,26 +52,26 @@ const AudioContainer = () => {
     draw(datas, 255);
   };
   const draw = (datas: number[], maxValue: number) => {
-    const r = curCanvas.width / 4 + 20 * devicePixelRatio;
-    const center = curCanvas.width / 2;
+    var barX = 0;
+    const barWidth = 100 / datas.length;
+    const barSpacing = 1;
     curCanvasCtx.clearRect(0, 0, curCanvas.width, curCanvas.height);
-    const hslStep = 360 / (datas.length - 1);
-    const maxLen = curCanvas.width / 2 - r;
-    const minLen = 2 * devicePixelRatio;
-    for (let i = 0; i < datas.length; i++) {
-      curCanvasCtx.beginPath();
-      const len = Math.max((datas[i] / maxValue) * maxLen, minLen);
-      const rotate = hslStep * i;
-      curCanvasCtx.strokeStyle = `hsl(${rotate}deg, 65%, 65%)`;
-      curCanvasCtx.lineWidth = minLen;
-      const rad = (rotate * Math.PI) / 180;
-      const beginX = center + Math.cos(rad) * r;
-      const beginY = center + Math.sin(rad) * r;
-      const endX = center + Math.cos(rad) * (r + len);
-      const endY = center + Math.sin(rad) * (r + len);
-      curCanvasCtx.moveTo(beginX, beginY);
-      curCanvasCtx.lineTo(endX, endY);
-      curCanvasCtx.stroke();
+    const linearGradient = curCanvasCtx.createLinearGradient(0, 0, 200, 0);
+    linearGradient.addColorStop(0, "red");
+    linearGradient.addColorStop(0.5, "green");
+    linearGradient.addColorStop(1, "blue");
+    for (var i = 0; i < datas.length; i++) {
+      var barHeight = (datas[i] / 255) * 100;
+      var barY = 100 - barHeight;
+      curCanvasCtx.fillStyle = linearGradient;
+      curCanvasCtx.fillRect(barX, barY, barWidth, barHeight);
+      barX += barWidth + barSpacing;
+      linearGradient.addColorStop(
+        i / (datas.length - 1),
+        `rgb(${255 - (i * 255) / (datas.length - 1)}, ${
+          (i * 255) / (datas.length - 1)
+        }, 0)`
+      );
     }
   };
 
@@ -91,13 +86,13 @@ const AudioContainer = () => {
 
   return (
     <div
-      style={{ width: 100, height: 20, backgroundColor: "green" }}
+      style={{ width: '2000px', height: 20, backgroundColor: "orange" }}
       onClick={() => {
         audioRef.current?.play();
         onAudioPlay();
       }}
     >
-      <canvas ref={canvasRef}></canvas>
+      <canvas ref={canvasRef} width="2000px" height="100"></canvas>
       <audio src={audio} loop ref={audioRef}></audio>
     </div>
   );
