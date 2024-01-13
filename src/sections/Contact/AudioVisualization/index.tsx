@@ -7,7 +7,7 @@ interface IProps {
   audioPlaySwitch: boolean;
 }
 
-const AudioContainer: React.FC<IProps> = (props) => {
+const AudioVisualization: React.FC<IProps> = (props) => {
   const { audioPlaySwitch } = props;
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -106,4 +106,4 @@ const AudioContainer: React.FC<IProps> = (props) => {
   );
 };
 
-export default AudioContainer;
+export default AudioVisualization;

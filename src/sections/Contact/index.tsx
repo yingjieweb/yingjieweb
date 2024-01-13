@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 // components
 import { Button, Input } from "antd";
 import Fade from "react-reveal/Fade";
@@ -10,7 +10,7 @@ import { detectMobile } from "../../utils";
 import { contacts } from "./constants";
 // styles
 import styles from "./styles.module.scss";
-import AudioContainer from "./AudioContainer";
+import AudioVisualization from "./AudioVisualization";
 
 const isMobile = detectMobile();
 const emailStr =
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
       </Fade>
 
       <div className={styles.audioBgCanvas}>
-        <AudioContainer audioPlaySwitch={audioPlaySwitch}></AudioContainer>
+        <AudioVisualization audioPlaySwitch={audioPlaySwitch}></AudioVisualization>
       </div>
 
       <Fade bottom>
