@@ -10,6 +10,7 @@
     position: relative;
     padding: 48px;
     margin-top: 32px;
+    margin-bottom: 32px;
     border-radius: 6px;
     background: white;
     display: inline-flex;
@@ -63,16 +64,14 @@
     }
   }
   .audioBgCanvas {
-    border: 1px solid red;
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 2;
+    z-index: -1;
   }
   .footer {
     width: 100vw;
     padding: 20px;
-    border: 1px solid #000;
     position: absolute;
     bottom: 0;
     left: 0;

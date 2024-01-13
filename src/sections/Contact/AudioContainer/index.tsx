@@ -1,23 +1,28 @@
 import React, { useEffect, useRef } from "react";
-import { detectMobile } from "../../../utils";
 
-const isMobile = detectMobile();
 const audio = require("../../../assets/audios/triumph.mp3");
 let source: any, buffer: any;
 
-const AudioContainer = () => {
+interface IProps {
+  audioPlaySwitch: boolean;
+}
+
+const AudioContainer: React.FC<IProps> = (props) => {
+  const { audioPlaySwitch } = props;
+
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const [isInit, setIsInit] = React.useState(false);
   const [audioAnalyser, setAudioAnalyser] = React.useState<any>(null);
-  const [curCanvas, setCurCanvas] = React.useState<any>(null);
-  const [curCanvasCtx, setCurCanvasCtx] = React.useState<any>(null);
+  const [curCanvasCtx, setCurCanvasCtx] =
+    React.useState<CanvasRenderingContext2D | null>(null);
 
   const initCanvas = () => {
     if (!canvasRef.current) return;
     const canvas = canvasRef.current;
     const canvasCtx = canvas.getContext("2d");
-    setCurCanvas(canvas);
+    canvas.width = window.innerWidth;
+    canvas.height = 200;
     setCurCanvasCtx(canvasCtx);
   };
   const onAudioPlay = () => {
@@ -25,7 +30,6 @@ const AudioContainer = () => {
       return;
     }
     setIsInit(true);
-    console.log("initAudioAnalyser");
     const audioCtx = new AudioContext();
     const analyser = audioCtx.createAnalyser();
     analyser.fftSize = 512;
@@ -48,21 +52,23 @@ const AudioContainer = () => {
     for (let i = 0; i < offset; i++) {
       datas[i] = datas[datas.length - i - 1] = buffer[i];
     }
-    console.log("datas", datas);
     draw(datas, 255);
   };
   const draw = (datas: number[], maxValue: number) => {
-    var barX = 0;
-    const barWidth = 100 / datas.length;
+    let barX = -100;
+    const barWidth = window.innerWidth / datas.length;
     const barSpacing = 1;
-    curCanvasCtx.clearRect(0, 0, curCanvas.width, curCanvas.height);
-    const linearGradient = curCanvasCtx.createLinearGradient(0, 0, 200, 0);
-    linearGradient.addColorStop(0, "red");
-    linearGradient.addColorStop(0.5, "green");
-    linearGradient.addColorStop(1, "blue");
+    if (!curCanvasCtx) return;
+    curCanvasCtx.clearRect(0, 0, window.innerWidth, 200);
+    const linearGradient = curCanvasCtx.createLinearGradient(
+      0,
+      0,
+      window.innerWidth,
+      0
+    );
     for (var i = 0; i < datas.length; i++) {
-      var barHeight = (datas[i] / 255) * 100;
-      var barY = 100 - barHeight;
+      var barHeight = (datas[i] / maxValue) * 200;
+      var barY = 200 - barHeight;
       curCanvasCtx.fillStyle = linearGradient;
       curCanvasCtx.fillRect(barX, barY, barWidth, barHeight);
       barX += barWidth + barSpacing;
@@ -79,20 +85,22 @@ const AudioContainer = () => {
     initCanvas();
   }, []);
   useEffect(() => {
+    if (audioPlaySwitch) {
+      audioRef.current?.play();
+      onAudioPlay();
+    } else {
+      audioRef.current?.pause();
+    }
+  }, [audioPlaySwitch]);
+  useEffect(() => {
     if (isInit && audioAnalyser) {
       update();
     }
   }, [isInit, audioAnalyser]);
 
   return (
-    <div
-      style={{ width: '2000px', height: 20, backgroundColor: "orange" }}
-      onClick={() => {
-        audioRef.current?.play();
-        onAudioPlay();
-      }}
-    >
-      <canvas ref={canvasRef} width="2000px" height="100"></canvas>
+    <div style={{ backgroundColor: "rgba(0,0,0, 0.1)" }}>
+      <canvas ref={canvasRef}></canvas>
       <audio src={audio} loop ref={audioRef}></audio>
     </div>
   );

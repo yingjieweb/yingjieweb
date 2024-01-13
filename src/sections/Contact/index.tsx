@@ -17,6 +17,8 @@ const emailStr =
   "mailto:yingjieweb@qq.com?subject=想说啥就说啥吧&body=大胆说出你的想法~";
 
 const Contact: React.FC = () => {
+  const [audioPlaySwitch, setAudioPlaySwitch] = React.useState(false);
+
   return (
     <Section
       id="contact"
@@ -43,20 +45,16 @@ const Contact: React.FC = () => {
       </Fade>
 
       <div className={styles.audioBgCanvas}>
-        <AudioContainer></AudioContainer>
+        <AudioContainer audioPlaySwitch={audioPlaySwitch}></AudioContainer>
       </div>
-
-      {/* read some message about self introduction？ */}
-      {/* <div>
-        I am a software developer with a passion for creating beautiful and
-        functional web applications. I have experience in a variety of
-        programming languages and frameworks, and I am always eager to learn new
-        technologies.
-      </div> */}
 
       <Fade bottom>
         <div className={styles.footer}>
-          <Input placeholder="随便讲两句吧 😉"></Input>
+          <Input
+            placeholder="随便讲两句吧！点我有惊喜！🎵"
+            onFocus={() => setAudioPlaySwitch(true)}
+            onBlur={() => setAudioPlaySwitch(false)}
+          ></Input>
           <Button
             type="primary"
             className={styles.btn}
