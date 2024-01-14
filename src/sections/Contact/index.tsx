@@ -45,31 +45,31 @@ const Contact: React.FC = () => {
       </Fade>
 
       <div className={styles.audioBgCanvas}>
-        <AudioVisualization audioPlaySwitch={audioPlaySwitch}></AudioVisualization>
+        <AudioVisualization
+          audioPlaySwitch={audioPlaySwitch}
+        ></AudioVisualization>
       </div>
 
-      <Fade bottom>
-        <div className={styles.footer}>
-          <Input
-            placeholder="随便讲两句吧！点我有惊喜！🎵"
-            onFocus={() => setAudioPlaySwitch(true)}
-            onBlur={() => setAudioPlaySwitch(false)}
-          ></Input>
-          <Button
-            type="primary"
-            className={styles.btn}
-            onClick={() => {
-              fetch("http://10.190.170.76:3000/messages/getAllMessages", {
-                method: "GET",
-              }).then((res) => {
-                console.log(res);
-              });
-            }}
-          >
-            发送
-          </Button>
-        </div>
-      </Fade>
+      <div className={styles.footer}>
+        <Input
+          placeholder="随便讲两句吧！点我有惊喜！🎵"
+          onFocus={() => setAudioPlaySwitch(true)}
+          onBlur={() => setAudioPlaySwitch(false)}
+        ></Input>
+        <Button
+          type="primary"
+          className={styles.btn}
+          onClick={() => {
+            fetch("http://10.190.170.76:3000/messages/getAllMessages", {
+              method: "GET",
+            }).then((res) => {
+              console.log(res);
+            });
+          }}
+        >
+          发送
+        </Button>
+      </div>
     </Section>
   );
 };

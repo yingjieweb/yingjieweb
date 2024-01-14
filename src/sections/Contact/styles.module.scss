@@ -64,17 +64,20 @@
     }
   }
   .audioBgCanvas {
+    height: 100px;
+    border: 1px solid red;
     position: absolute;
-    bottom: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     z-index: -1;
   }
   .footer {
-    width: 100vw;
-    padding: 20px;
+    border: 1px solid #000;
     position: absolute;
-    bottom: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     display: flex;
     .btn {
       margin-left: 20px;

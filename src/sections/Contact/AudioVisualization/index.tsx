@@ -55,7 +55,7 @@ const AudioVisualization: React.FC<IProps> = (props) => {
     draw(datas, 255);
   };
   const draw = (datas: number[], maxValue: number) => {
-    let barX = -100;
+    let barX = 0;
     const barWidth = window.innerWidth / datas.length;
     const barSpacing = 1;
     if (!curCanvasCtx) return;
