@@ -73,7 +73,7 @@ export const projects: ProjectItem[] = [
     ),
     links: [
       {
-        content: "http://yingjiesongi.gitee.io/league-ui-doc/#/intro",
+        content: "https://yingjieweb.github.io/league-ui-doc/#/intro",
         image: link,
       },
       {
@@ -134,7 +134,7 @@ export const projects: ProjectItem[] = [
     ),
     links: [
       {
-        content: "http://yingjiesongi.gitee.io/navigator/",
+        content: "https://yingjieweb.github.io/navigator/",
         image: link,
       },
       {
@@ -163,7 +163,7 @@ export const projects: ProjectItem[] = [
     ),
     links: [
       {
-        content: "https://yingjiesongi.gitee.io/charge/#/money",
+        content: "https://yingjieweb.github.io/charge/#/money",
         image: link,
       },
       {
