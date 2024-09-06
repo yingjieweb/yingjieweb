@@ -32,7 +32,11 @@ const Nav: React.FC = () => {
             className={classNames({
               [styles.active]: nav.targetEl === activeItem,
             })}
-            onClick={() => scrollTo(nav.targetEl)}
+            onClick={() => {
+              scrollTo(nav.targetEl)
+              // @ts-ignore
+              _hmt.push(['_trackEvent', 'navigator', 'click', nav.targetEl]);
+            }}
           >
             {nav.text}
           </li>
