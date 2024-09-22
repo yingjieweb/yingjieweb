@@ -1,61 +1,74 @@
 .contact {
   height: 100vh;
+  padding: 40px 20px;
   background-image: url("../../assets/svgs/home-bg.svg");
   display: flex;
   align-items: center;
+  justify-content: center;
+
   .container {
-    position: relative;
-    padding: 32px 48px;
-    margin-top: 32px;
-    border-radius: 6px;
-    background: white;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    .contactList {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      li {
-        padding: 12px 24px;
-        cursor: pointer;
-        img {
-          height: 48px;
-        }
-        div {
-          font-size: 2.3em;
-        }
-        &:hover {
-          img, div {
-            animation: wobble 1s ease-in-out;
-          }
-          @keyframes wobble {
-            0% {
-              transform: translateY(0%);
-            }
-            15% {
-              transform: translateY(-25%);
-            }
-            30% {
-              transform: translateY(20%);
-            }
-            45% {
-              transform: translateY(-15%);
-            }
-            60% {
-              transform: translateY(10%);
-            }
-            75% {
-              transform: translateY(-5%);
-            }
-            100% {
-              transform: translateY(0%);
-            }
-          }
-        }
+    overflow: hidden;
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+  }
+
+  .contactList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+    li {
+      cursor: pointer;
+      transition: transform 0.3s ease;
+
+      img {
+        height: 40px;
+        width: 40px;
+        object-fit: contain;
+      }
+
+      &:hover {
+        transform: scale(1.2);
       }
     }
   }
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+// @media (max-width: 768px) {
+//   .contact {
+//     .container {
+//       padding: 20px;
+//     }
+
+//     .contactForm {
+//       grid-template-columns: 1fr;
+//     }
+
+//     .contactList {
+//       li {
+//         img {
+//           width: 35px;
+//           height: 35px;
+//         }
+//       }
+//     }
+//   }
+// }
