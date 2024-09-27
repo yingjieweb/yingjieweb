@@ -5,7 +5,7 @@ import Title from "../../components/Title";
 // components
 import Profile from "./Profile";
 import Life from "./Life";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 import Paragraph from "../../components/Paragraph";
 import Section from "../../components/Section";
@@ -27,7 +27,7 @@ const About: React.FC = () => (
 
     <Life />
 
-    <Fade bottom>
+    <Fade direction="up">
       <Paragraph className={styles.goal}>
         喜欢 <HighLight>写代码</HighLight>， 并不是为了做一个 🐂 🍺 的项目
         <br />
@@ -36,7 +36,7 @@ const About: React.FC = () => (
       </Paragraph>
     </Fade>
 
-    {/* <Fade bottom>
+    {/* <Fade direction="up">
       <div>
         <Button
           onClick={() => window.open(resumeUrl, "_blank")}

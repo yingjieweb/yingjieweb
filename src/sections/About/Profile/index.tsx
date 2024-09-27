@@ -2,7 +2,7 @@ import React from "react";
 import useLottie from "../../../hooks/useLottie";
 // components
 import { Col, Row } from "antd";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import Paragraph from "../../../components/Paragraph";
 import HighLight from "../../../components/HighLight";
 // styles
@@ -18,11 +18,11 @@ const Profile: React.FC = () => {
   return (
     <Row gutter={36} className={styles.profile}>
       <Col lg={{ span: 24, order: 1 }} span={24} order={3}>
-        <Fade bottom>
+        <Fade direction="up">
           <img className={styles.avatar} src={avatar} alt="头像" />
         </Fade>
 
-        <Fade bottom>
+        <Fade  direction="up">
           <Paragraph>
             一名 <HighLight>前端爱好者</HighLight> ，山东烟台人。 目前在{" "}
             <HighLight>搜狐 @ 北京</HighLight> 从事前端开发 🧱
@@ -43,7 +43,7 @@ const Profile: React.FC = () => {
 
         <div className={styles.lottie} ref={cubeRef} />
 
-        <Fade bottom>
+        <Fade direction="up">
           <Paragraph>
             平时除了喜欢写点代码之外，还喜欢和小伙伴们打打篮球 🏀 ，健健身 🏋
             ...
@@ -67,7 +67,7 @@ const Profile: React.FC = () => {
         order={1}
         className={styles.avatar}
       >
-        <Fade bottom>
+        <Fade direction="up">
           <img src={avatar} alt="头像" />
         </Fade>
       </Col> */}

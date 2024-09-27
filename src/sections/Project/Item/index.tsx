@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import { Tooltip } from "antd";
 import styles from "./styles.module.scss";
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Form, Input, Button, message } from "antd"; // 引入 Ant Design 组件
 // components
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import Section from "../../components/Section";
 import Title from "../../components/Title";
 // utils
@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
       className={styles.contact}
       style={{ backgroundAttachment: isMobile ? "initial" : "fixed" }}
     >
-      <Fade bottom>
+      <Fade direction="up">
         <div className={styles.container}>
           <Title tag="h2">How to find me? 😉</Title>
           <Form form={form} onFinish={onFinish} layout="vertical">

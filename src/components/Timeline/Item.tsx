@@ -1,5 +1,5 @@
 import React, { FC, ReactChild, useMemo } from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import classNames from "classnames";
 import styles from "./styles.module.scss";
 import Paragraph from "../Paragraph";
@@ -39,11 +39,7 @@ const TimelineItem: FC<Props> = (props) => {
         {node || <div className={styles.defaultNode} />}
       </div>
 
-      <Fade
-        bottom={isMobile}
-        left={!isMobile && direction === "left"}
-        right={!isMobile && direction === "right"}
-      >
+      <Fade direction={isMobile ? "up" : direction === "left" ? "left" : "right"}>
         <div
           className={classNames(
             styles.content,

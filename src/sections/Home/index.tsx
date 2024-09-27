@@ -3,7 +3,7 @@ import useTyped from "../../hooks/useTyped";
 import useLottie from "../../hooks/useLottie";
 // components
 import { Col, Row } from "antd";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 // constants
 import { arrowDownLottie, dragonLottie } from "./constants";
 // styles
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
         </Col>
 
         <Col span={24} md={9} className={styles.avatarWrapper}>
-          <Fade bottom>
+          <Fade direction="up">
             <div className={styles.avatar}>
               <div ref={dragonLottieRef} />
             </div>
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
       </Row>
 
       <div className={styles.arrowWrapper}>
-        <Fade top>
+        <Fade direction="up">
           <div className={styles.arrow}>
             <div ref={arrowDownLottieRef} onClick={next} />
           </div>

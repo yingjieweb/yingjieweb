@@ -1,5 +1,5 @@
 import React, { AllHTMLAttributes, createElement } from "react";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import classNames from "classnames";
 import styles from "./styles.module.scss";
 
@@ -11,7 +11,7 @@ const Title: React.FC<IProps> = (props) => {
   const { tag, children, className, ...restProps } = props;
 
   return (
-    <Fade bottom>
+    <Fade direction="up">
       <div {...restProps} className={classNames(className, styles.title)}>
         {createElement(`${tag}`, { children })}
       </div>
