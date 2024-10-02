@@ -5,7 +5,8 @@ import useLottie from "../../hooks/useLottie";
 import { Col, Row } from "antd";
 import { Fade } from "react-awesome-reveal";
 // constants
-import { arrowDownLottie, dragonLottie } from "./constants";
+import dragonLottieData from "../../assets/lottie/dragon.json";
+import arrowLottieData from "../../assets/lottie/arrow.json";
 // styles
 import styles from "./styles.module.scss";
 
@@ -13,8 +14,8 @@ const strings = ["聊聊技术。", "写写博客。", "打打球。"];
 
 const Home: React.FC = () => {
   const typedElement = useTyped(strings, { loop: true });
-  const arrowDownLottieRef = useLottie(arrowDownLottie);
-  const dragonLottieRef = useLottie(dragonLottie);
+  const dragonLottieRef = useLottie(dragonLottieData);
+  const arrowDownLottieRef = useLottie(arrowLottieData);
 
   const next = () => {
     const $about = document.querySelector("#about");
