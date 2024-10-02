@@ -1,25 +1,36 @@
 import { useEffect, useRef } from "react";
-import lottie, { AnimationConfigWithData } from "lottie-web";
+import lottie, { AnimationConfigWithData, AnimationConfigWithPath, AnimationItem } from "lottie-web";
 
-const useLottie = (path: string, extra?: AnimationConfigWithData) => {
+const useLottie = (
+  animationData: string | object,
+  extra?: Omit<AnimationConfigWithData, "animationData" | "path">
+) => {
   const lottieRef = useRef<HTMLDivElement | null>(null);
+  const animationRef = useRef<AnimationItem | null>(null);
 
   useEffect(() => {
     if (lottieRef.current) {
-      const item = lottie.loadAnimation({
+      let config: AnimationConfigWithData | AnimationConfigWithPath = {
         container: lottieRef.current,
-        path,
         renderer: "svg",
         loop: true,
         autoplay: true,
         ...extra,
-      });
+      };
+
+      if (typeof animationData === "string") {
+        config = { ...config, path: animationData } as AnimationConfigWithPath;
+      } else {
+        config = { ...config, animationData } as AnimationConfigWithData;
+      }
+
+      animationRef.current = lottie.loadAnimation(config);
 
       return () => {
-        item.destroy();
+        animationRef.current?.destroy();
       };
     }
-  }, [extra, path]);
+  }, [animationData, extra]);
 
   return lottieRef;
 };
