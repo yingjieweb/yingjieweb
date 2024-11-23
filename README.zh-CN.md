@@ -19,8 +19,8 @@
 
 下面是我在学习前端时写的一些个人项目 🧐， 如果你也有兴趣的话，求个 star 🤩
 
-|   项目  |  简介  |  预览  |  源码  |  技术  |
-|   ---   |  ---   |  ---  |  ---   |  ---  |
+|   项目  |  简介  |  预览  |  技术  |
+|   ---   |  ---   |  ---   |  ---  |
 | **[yingjieweb](https://github.com/yingjieweb/yingjieweb)** | 👻 个人网站，收集了我的部分博客、项目等 | [Preview](https://yingjieweb.github.io) | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> <img src="https://img.shields.io/badge/TS-007ACC?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Ant Design-0170FE?style=flat-square&amp;logo=antdesign&amp;logoColor=white" alt="badge"> |
 | **[👻_next](https://github.com/yingjieweb/yingjie-next)** | 👻 Personal website, Next.js version | [Preview](https://yingjie-next.vercel.app/) | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=next.js&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="badge"> |
 | **[league-ui](https://github.com/yingjieweb/league-ui)** | ⚙️ 一款以英雄联盟网游为主题的 UI 组件库 | [Preview](https://yingjieweb.github.io/league-ui-doc/#/intro) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&amp;logo=sass&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&amp;logo=npm&amp;logoColor=white" alt="badge"> |
