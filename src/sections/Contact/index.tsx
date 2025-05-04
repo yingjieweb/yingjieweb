@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { Form, Input, Button, message } from "antd"; // 引入 Ant Design 组件
+import React, { useEffect, useState } from "react";
+import { Form, Input, Button, message } from "antd";
 // components
 import { Fade } from "react-awesome-reveal";
 import Section from "../../components/Section";
@@ -17,6 +17,7 @@ const isMobile = detectMobile();
 
 const Contact: React.FC = () => {
   const [form] = Form.useForm();
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
@@ -28,7 +29,7 @@ const Contact: React.FC = () => {
     message: string;
   }) => {
     const dataToSend = { ...values, reply_to: values.email };
-
+    setIsLoading(true);
     emailjs
       .send(
         EMAILJS_CONFIG.SERVICE_ID,
@@ -36,15 +37,16 @@ const Contact: React.FC = () => {
         dataToSend,
         EMAILJS_CONFIG.PUBLIC_KEY
       )
-      .then(
-        () => {
-          message.success("邮件已成功发送！");
-          form.resetFields();
-        },
-        () => {
-          message.error("发送失败，请稍后再试。");
-        }
-      );
+      .then(() => {
+        message.success("邮件已成功发送！");
+        form.resetFields();
+      })
+      .catch(() => {
+        message.error("发送失败，请稍后再试。");
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
   };
 
   return (
@@ -82,7 +84,13 @@ const Contact: React.FC = () => {
               <Input.TextArea placeholder="留言，想说啥就说啥~" rows={4} />
             </Form.Item>
             <Form.Item>
-              <Button type="primary" htmlType="submit" block>
+              <Button
+                type="primary"
+                htmlType="submit"
+                block
+                loading={isLoading}
+                disabled={isLoading}
+              >
                 发送消息
               </Button>
             </Form.Item>
