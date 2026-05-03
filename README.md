@@ -54,26 +54,4 @@ Document learning of new knowledge or the resolution of challenging problems in 
 
 ## 🛠 My technology stacks
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,react,webpack,less,sass,nodejs,npm,nextjs,nestjs,git,github,vscode,md,chrome&perline=15)](https://skillicons.dev)
-
-<!-- <img src="https://profile-counter.glitch.me/yingjieweb/count.svg" /> -->
-
-<!--
-    January 2nd, 2021 6:10 PM
-    **yingjieweb/yingjieweb** is a ✨ _special_ ✨ repository
-    because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-Here are some ideas to get you started:
-
-    Here are some ideas to get you started:
-
-    - 🔭 I’m currently working on ...
-    - 🌱 I’m currently learning ...
-    - 👯 I’m looking to collaborate on ...
-    - 🤔 I’m looking for help with ...
-    - 💬 Ask me about ...
-    - 📫 How to reach me: ...
-    - 😄 Pronouns: ...
-    - ⚡ Fun fact: ...
--->
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,vue,react,nextjs,less,sass,tailwind,nodejs,nestjs,python,django,git&perline=15)](https://skillicons.dev)
