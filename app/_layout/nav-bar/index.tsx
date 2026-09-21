@@ -16,6 +16,14 @@ export default function NavBar() {
   const [mobileNavVisible, setMobileNavVisible] = useState<boolean>(false);
 
   useEffect(() => {
+    const savedLanguage = window.localStorage.getItem("i18nextLng");
+
+    if (savedLanguage === "zh") {
+      i18n.changeLanguage(savedLanguage);
+    }
+  }, [i18n]);
+
+  useEffect(() => {
     document.documentElement.lang =
       i18n.resolvedLanguage === "en" ? "en" : "zh-CN";
     document.title = t("meta.title");
@@ -53,9 +61,13 @@ export default function NavBar() {
         ))}
         <li
           className="block cursor-pointer px-3 py-2 text-[1.2em] font-bold leading-[1.5] text-[#409eff]"
-          onClick={() =>
-            i18n.changeLanguage(i18n.resolvedLanguage === "zh" ? "en" : "zh")
-          }
+          onClick={() => {
+            const nextLanguage =
+              i18n.resolvedLanguage === "zh" ? "en" : "zh";
+
+            window.localStorage.setItem("i18nextLng", nextLanguage);
+            i18n.changeLanguage(nextLanguage);
+          }}
           aria-label={t("language.switch")}
         >
           {t("language.label")}
