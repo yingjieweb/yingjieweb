@@ -28,5 +28,66 @@
       "blog": "blog.",
       "sports": "play pool."
     }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "👋 Hi, I'm Yingjieweb 👻",
+    "profile": {
+      "intro": "I'm a <highlight>full-stack developer</highlight> 🐒 from Yantai, Shandong. I'm currently building at <highlight>AMMO</highlight>, working mainly on AI agents across frontend and backend 🧱",
+      "undergraduate": "I studied Software Engineering at <highlight>Qufu Normal University in Jining</highlight>. While there, I served in the university's <highlight>National Flag Guard</highlight> 🇨🇳 and trained incoming students. I sometimes wish I had joined the military for the experience 😕.",
+      "graduate": "After graduation, I spent three years studying Artificial Intelligence at <highlight>Northeastern University in Shenyang</highlight>. I explored frontend development on my own, and years later found my way back to <highlight>AI</highlight> while expanding into backend development—the pieces finally came together 🤖",
+      "hobbies": "Besides coding, I enjoy playing basketball 🏀 and pool 🎱 with friends, and working out now and then 🏋 ...",
+      "dream": "As a child, I dreamed of becoming an astronaut 👨‍🚀. These days I focus less on one grand dream and more on a series of <highlight>small goals</highlight> 🌟",
+      "career": "I hope not only to write good code, but also to turn fun ideas into <highlight>products people genuinely want to use</highlight> 🚀"
+    },
+    "goal": {
+      "prefix": "I enjoy",
+      "code": "coding",
+      "middle": " not just to build something cool ✨,",
+      "suffix": "but to bring fun ideas to life"
+    }
+  },
+  "timeline": {
+    "month": {
+      "march": "Mar",
+      "june": "Jun",
+      "july": "Jul",
+      "september": "Sep"
+    },
+    "study": "🙇‍♂️ Studied hard...",
+    "bachelorGraduation": "🎓 Bachelor's degree 🎉",
+    "jining": "Jining, Shandong",
+    "qfnu": "Qufu Normal University",
+    "softwareEngineering": "Software Engineering",
+    "codingJourney": "I started with C and Java, then gradually moved to JavaScript. Frontend is fun!",
+    "shenyang": "✈️ Shenyang",
+    "graduateAdmission": "Started graduate school at",
+    "neu": "Northeastern University",
+    "graduateStudy": "Studied AI, explored frontend development, practiced interview problems... and interviewed...",
+    "masterGraduation": "🎓 Master's degree 🎉",
+    "lab": "Big Data Analytics and AI Lab @ Artificial Intelligence",
+    "beijing": "Haidian, Beijing",
+    "joined": "Joined",
+    "sohu": "@Sohu",
+    "nanjing": "Nanjing, Jiangsu",
+    "fta": "@Full Truck Alliance",
+    "reunion": "No more long-distance relationship with my girlfriend! 🎉",
+    "newChapter": "A new chapter 🚀",
+    "startedBuilding": "Started building at",
+    "entrepreneurship": "🧱",
+    "ammo": "@AMMO",
+    "fullStack": "Moved beyond frontend into full-stack development",
+    "aiAgent": "Now focused on AI agents 🤖",
+    "sanya": "Sanya, Hainan 🌴",
+    "married": "We got married!",
+    "loveJourney": "From getting together at graduation, through the years of long distance, to sharing everyday life in the same city 👫",
+    "loveOfMyLife": "Finally turned the love of my youth into the love of my life ❤️",
+    "roles": [
+      "Programmer",
+      "Engineer",
+      "Full-stack Developer",
+      "AI Agent Builder",
+      "Entrepreneur"
+    ]
   }
 }

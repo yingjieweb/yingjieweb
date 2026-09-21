@@ -53,7 +53,7 @@ function TimelineItem(props: IProps) {
         direction={isMobile ? "up" : direction === "left" ? "left" : "right"}
       >
         <div
-          className={`pt-4 ${
+          className={`pt-[18px] ${
             direction === "left"
               ? "pr-9 text-right self-start"
               : "pl-9 text-left self-end"
@@ -72,7 +72,7 @@ function TimelineItem(props: IProps) {
             headers.map((headerItem) => (
               <Paragraph
                 key={headerItem ? headerItem.toString() : 0}
-                className="text-base"
+                className="text-[1em]"
               >
                 {headerItem}
               </Paragraph>

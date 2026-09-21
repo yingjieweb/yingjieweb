@@ -4,7 +4,7 @@ import React from "react";
 import classNames from "classnames";
 
 interface HighlightProps extends React.HTMLAttributes<HTMLSpanElement> {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
 }
 
