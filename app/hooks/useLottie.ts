@@ -1,5 +1,9 @@
 import { useEffect, useRef } from "react";
-import lottie, { AnimationConfigWithData, AnimationConfigWithPath, AnimationItem } from "lottie-web";
+import type {
+  AnimationConfigWithData,
+  AnimationConfigWithPath,
+  AnimationItem,
+} from "lottie-web";
 
 const useLottie = (
   animationData: string | object,
@@ -9,7 +13,13 @@ const useLottie = (
   const animationRef = useRef<AnimationItem | null>(null);
 
   useEffect(() => {
-    if (lottieRef.current) {
+    let cancelled = false;
+
+    const loadAnimation = async () => {
+      const { default: lottie } = await import("lottie-web");
+
+      if (!lottieRef.current || cancelled) return;
+
       let config: AnimationConfigWithData | AnimationConfigWithPath = {
         container: lottieRef.current,
         renderer: "svg",
@@ -25,11 +35,15 @@ const useLottie = (
       }
 
       animationRef.current = lottie.loadAnimation(config);
+    };
 
-      return () => {
-        animationRef.current?.destroy();
-      };
-    }
+    loadAnimation();
+
+    return () => {
+      cancelled = true;
+      animationRef.current?.destroy();
+      animationRef.current = null;
+    };
   }, [animationData, extra]);
 
   return lottieRef;
