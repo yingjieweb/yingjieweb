@@ -1,13 +1,25 @@
 "use client";
 
-import React, { useState } from "react";
-import { navItems } from "./constants";
-import { NavItem } from "./components/nav-item";
+import React, { useEffect, useState } from "react";
 import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
+import { useTranslation } from "react-i18next";
+// components
+import { NavItem } from "./components/nav-item";
+// constants
+import { navItems } from "./constants";
+// i18n
+import "@/app/i18n";
 
 export default function NavBar() {
+  const { t, i18n } = useTranslation();
   const [curActiveNavEl, setCurActiveNavEl] = useState<string>("#home");
   const [mobileNavVisible, setMobileNavVisible] = useState<boolean>(false);
+
+  useEffect(() => {
+    document.documentElement.lang =
+      i18n.resolvedLanguage === "en" ? "en" : "zh-CN";
+    document.title = t("meta.title");
+  }, [i18n.resolvedLanguage, t]);
 
   const scrollToElement = (targetEl: string) => {
     const element = document.querySelector(targetEl) as HTMLElement;
@@ -20,7 +32,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-[3] flex items-center justify-between bg-white px-[25px] py-[6px] text-[rgba(0,0,0,0.65)] shadow-[0_4px_8px_0_rgba(0,0,0,0.1)]">
+    <nav className="fixed top-0 left-0 right-0 z-[3] flex items-center justify-between bg-white pt-[6px] pr-5 pb-[6px] pl-[25px] text-[rgba(0,0,0,0.65)] shadow-[0_4px_8px_0_rgba(0,0,0,0.1)]">
       <div className="flex-1 px-[4px] py-[2px] text-[1.5em] font-bold text-[#409EFF]">
         Yingjieweb
       </div>
@@ -30,9 +42,9 @@ export default function NavBar() {
         {navItems.map((nav) => (
           <NavItem
             key={nav.targetEl}
-            nav={nav}
+            label={t(`nav.${nav.translationKey}`)}
             isActive={nav.targetEl === curActiveNavEl}
-            className="hidden md:block leading-[1.5] transition-colors duration-300"
+            className="hidden min-[993px]:block leading-[1.5] transition-colors duration-300"
             onClick={() => {
               setCurActiveNavEl(nav.targetEl);
               scrollToElement(nav.targetEl);
@@ -40,7 +52,16 @@ export default function NavBar() {
           />
         ))}
         <li
-          className="block md:hidden cursor-pointer px-3 py-2 text-[1.2em] font-bold"
+          className="block cursor-pointer px-3 py-2 text-[1.2em] font-bold leading-[1.5] text-[#409eff]"
+          onClick={() =>
+            i18n.changeLanguage(i18n.resolvedLanguage === "zh" ? "en" : "zh")
+          }
+          aria-label={t("language.switch")}
+        >
+          {t("language.label")}
+        </li>
+        <li
+          className="block min-[993px]:hidden cursor-pointer px-3 py-2 text-[1.2em] font-bold"
           onClick={() => setMobileNavVisible(!mobileNavVisible)}
         >
           {mobileNavVisible ? <CloseOutlined /> : <MenuOutlined />}
@@ -49,11 +70,11 @@ export default function NavBar() {
 
       {/* mobile nav */}
       {mobileNavVisible && (
-        <ul className="absolute top-full right-0 z-[3] w-[6em] flex flex-col items-center bg-white shadow-md">
+        <ul className="absolute top-full right-0 z-[3] flex w-[30%] flex-col items-center bg-white font-bold shadow-[0_4px_8px_0_rgba(0,0,0,0.1)]">
           {navItems.map((nav) => (
             <NavItem
               key={nav.targetEl}
-              nav={nav}
+              label={t(`nav.${nav.translationKey}`)}
               isActive={nav.targetEl === curActiveNavEl}
               onClick={() => {
                 setCurActiveNavEl(nav.targetEl);

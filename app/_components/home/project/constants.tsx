@@ -275,7 +275,7 @@ export const projects: ProjectItem[] = [
         image: link,
       },
       {
-        content: "https://yingjieweb.github.io/dnd-draggable-tree-demo/",
+        content: "https://github.com/yingjieweb/dnd-draggable-tree-demo",
         image: github,
       },
     ],

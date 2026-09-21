@@ -1,0 +1,32 @@
+{
+  "language": {
+    "label": "EN",
+    "switch": "Switch to English"
+  },
+  "meta": {
+    "title": "yingjieweb 个人主页"
+  },
+  "punctuation": {
+    "comma": "，"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "projects": "项目",
+    "contact": "找我"
+  },
+  "home": {
+    "greeting": "👋 我是 Yingjieweb，",
+    "role": "一名全栈开发者 🐒，",
+    "workingPrefix": "目前在",
+    "company": "AMMO",
+    "workingSuffix": "创业 🧱，",
+    "aiFocus": "最近在搞 AI Agent 🤖，",
+    "sometimes": "偶尔",
+    "typed": {
+      "tech": "聊聊技术。",
+      "blog": "写写博客。",
+      "sports": "打打台球。"
+    }
+  }
+}

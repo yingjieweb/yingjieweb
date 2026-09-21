@@ -1,0 +1,32 @@
+{
+  "language": {
+    "label": "中",
+    "switch": "切换到中文"
+  },
+  "meta": {
+    "title": "Yingjieweb | Personal Website"
+  },
+  "punctuation": {
+    "comma": ","
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "👋 Hi, I'm Yingjieweb,",
+    "role": "a full-stack developer 🐒,",
+    "workingPrefix": "building at",
+    "company": "AMMO",
+    "workingSuffix": "🧱,",
+    "aiFocus": "mostly AI agents these days 🤖,",
+    "sometimes": "Sometimes I ",
+    "typed": {
+      "tech": "talk tech.",
+      "blog": "blog.",
+      "sports": "play pool."
+    }
+  }
+}

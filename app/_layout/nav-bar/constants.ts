@@ -1,8 +1,8 @@
-import { NavItem } from "./defination";
+import type { NavItemConfig } from "./types";
 
-export const navItems: NavItem[] = [
-  { text: "首页", targetEl: "#home" },
-  { text: "关于", targetEl: "#about" },
-  { text: "项目", targetEl: "#project" },
-  { text: "找我", targetEl: "#contact" },
+export const navItems: NavItemConfig[] = [
+  { translationKey: "home", targetEl: "#home" },
+  { translationKey: "about", targetEl: "#about" },
+  { translationKey: "projects", targetEl: "#project" },
+  { translationKey: "contact", targetEl: "#contact" },
 ];

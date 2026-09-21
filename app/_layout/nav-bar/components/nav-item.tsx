@@ -1,5 +1,3 @@
-import { NavItem as NavItemType } from "../defination";
-
 const NAV_ITEM_BASE_STYLES = `
   px-3 py-2 
   text-[1.2em] 
@@ -9,18 +7,17 @@ const NAV_ITEM_BASE_STYLES = `
 `;
 
 interface NavItemProps {
-  nav: NavItemType;
+  label: string;
   isActive: boolean;
   onClick: () => void;
   className?: string;
 }
 
 export const NavItem = (props: NavItemProps) => {
-  const { nav, isActive, onClick, className = "" } = props;
+  const { label, isActive, onClick, className = "" } = props;
 
   return (
     <li
-      key={nav.targetEl}
       className={`
         ${NAV_ITEM_BASE_STYLES}
         ${className}
@@ -28,7 +25,7 @@ export const NavItem = (props: NavItemProps) => {
       `}
       onClick={onClick}
     >
-      {nav.text}
+      {label}
     </li>
   );
 };
