@@ -89,5 +89,49 @@
       "AI Agent Builder",
       "Entrepreneur"
     ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A collection of fun projects and articles 👻",
+    "more": "More fun projects and articles are on the way 🐒",
+    "techStack": "Tech Stack",
+    "items": {
+      "league": {
+        "title": "League of Legends UI",
+        "description": "A UI component library inspired by League of Legends, built with Vue.js."
+      },
+      "campus": {
+        "title": "Graduate Job Recommendation System",
+        "description": "A frontend demo of a graduate job recommendation system I built at university with Vue.js, Element UI, and ECharts."
+      },
+      "navigator": {
+        "title": "Personal Navigation Site",
+        "description": "A custom navigation site built for my girlfriend with jQuery. Singles, look away 🤪"
+      },
+      "charge": {
+        "title": "Minimal Expense Tracker",
+        "description": "My own minimalist expense-tracking app, built with React.js, TypeScript, and ECharts."
+      },
+      "dombox": {
+        "title": "dombox Utility Library",
+        "description": "A fast, compact, and feature-rich JavaScript utility library with easy-to-use APIs for DOM traversal, manipulation, and event handling."
+      },
+      "sunshine": {
+        "title": "CSS Magic World",
+        "description": "A collection of fun CSS animation effects I made when I first started learning frontend development 🤪"
+      },
+      "amap": {
+        "title": "AMap Mass-Marker Performance Solution",
+        "description": "A complete solution for lag caused by large numbers of markers and labels in AMap, improving overall performance by 300% 🎉"
+      },
+      "dnd": {
+        "title": "Draggable Multi-level Tree",
+        "description": "A draggable, sortable multi-level tree component for React, built with dnd-kit."
+      },
+      "rbac": {
+        "title": "RBAC Checkbox Tree",
+        "description": "A role-based access-control checkbox tree with linked permission selection across multiple levels."
+      }
+    }
   }
 }

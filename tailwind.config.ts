@@ -23,10 +23,17 @@ export default {
             borderColor: "transparent",
           },
         },
+        energy: {
+          "0%": { transform: "scale(1, 1)" },
+          "25%": { transform: "scale(0.9, 1.1)" },
+          "50%": { transform: "scale(1.2, 0.8)" },
+          "75%": { transform: "scale(0.95, 1.05)" },
+        },
       },
       animation: {
         "avatar-pulse":
           "avatar-pulse 2s cubic-bezier(0.57, 0.06, 0.27, 0.84) infinite",
+        energy: "energy 0.5s",
       },
     },
   },

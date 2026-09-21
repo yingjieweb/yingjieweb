@@ -83,5 +83,49 @@
     "loveJourney": "从毕业季的牵手，到异地时的坚守，再到同城后的朝夕相伴 👫",
     "loveOfMyLife": "终于把年少时的喜欢变成了一生的挚爱 ❤️",
     "roles": ["程序员", "工程师", "全栈开发", "AI Agent Builder", "创业者"]
+  },
+  "projects": {
+    "title": "个人项目",
+    "subtitle": "超多好玩、有趣的项目和文章 👻",
+    "more": "更多好玩、有趣的项目和文章正在路上 🐒",
+    "techStack": "技术栈",
+    "items": {
+      "league": {
+        "title": "League of Legends UI",
+        "description": "一个基于英雄联盟样式的 UI 组件库，通过 Vue.js 开发。"
+      },
+      "campus": {
+        "title": "大学生就业推荐系统",
+        "description": "读书时做的大学生就业推荐系统，仅前端展示部分，通过 Vue.js + Element UI + ECharts 开发。"
+      },
+      "navigator": {
+        "title": "小傻瓜导航站点",
+        "description": "为女朋友量身定制的导航站点，通过 jQuery 开发。单身狗快撤 🤪"
+      },
+      "charge": {
+        "title": "小本本记账",
+        "description": "用 React.js + TypeScript + ECharts 开发的一款属于自己的极简记账应用。"
+      },
+      "dombox": {
+        "title": "dombox 工具库",
+        "description": "一个高效、精简、功能丰富的 JavaScript 工具库。它提供的 API 易于使用，这让诸如 HTML 文档遍历和操作、事件处理操作更加简单。"
+      },
+      "sunshine": {
+        "title": "CSS 魔法世界",
+        "description": "自己在学习前端初期做的一些有趣的 CSS animation 效果 🤪"
+      },
+      "amap": {
+        "title": "高德地图「海量点标记 + 海量标注」卡顿问题解决方案",
+        "description": "针对数据量较大时高德地图「海量点标记 + 海量标注」卡顿问题提供了一整套优化方案，整体性能提升 300% 🎉"
+      },
+      "dnd": {
+        "title": "可拖拽的多层级树形组件",
+        "description": "一款基于 React dnd-kit 的可拖拽多层级树形排序组件。"
+      },
+      "rbac": {
+        "title": "RBAC 树形选择组件",
+        "description": "一款基于角色的访问控制 checkbox 树形组件，支持多级权限联动选择。"
+      }
+    }
   }
 }

@@ -1,25 +1,37 @@
-import React, { ReactNode } from "react";
-import { Fade } from "react-awesome-reveal";
-import { Tooltip } from "antd";
-import Image, { StaticImageData } from "next/image";
+"use client";
 
-interface Image {
+import React, { ReactNode } from "react";
+import Image, { StaticImageData } from "next/image";
+import { Tooltip } from "antd";
+import { Fade } from "react-awesome-reveal";
+import { useTranslation } from "react-i18next";
+
+interface ProjectImage {
   image: StaticImageData;
   content: string;
 }
 
 export type ProjectItem = {
+  id: string;
   logo?: StaticImageData;
   logoFont?: string;
   title?: string | ReactNode;
   badges?: string[];
   content?: string | ReactNode;
   description?: string | ReactNode;
-  links?: Image[];
-  techUsed?: Image[];
+  links?: ProjectImage[];
+  techUsed?: ProjectImage[];
+};
+
+const getLinkLabel = (url: string) => {
+  if (url.includes("github.com")) return "GitHub";
+  if (url.includes("juejin.cn")) return "Juejin";
+  if (url.includes("csdn.net")) return "CSDN";
+  return "Live preview";
 };
 
 const Item: React.FC<ProjectItem> = (props) => {
+  const { t } = useTranslation();
   const {
     logo,
     logoFont,
@@ -32,28 +44,26 @@ const Item: React.FC<ProjectItem> = (props) => {
   } = props;
 
   return (
-    <div className="px-6 py-6 mx-4 transition-transform duration-300 md:px-0">
+    <div className="p-6 transition-transform duration-300 max-[786px]:px-0">
       <Fade>
-        <div className="px-5 py-5 rounded-lg bg-white text-center hover:z-3 hover:shadow-lg">
+        <div className="rounded-[6px] bg-white p-5 text-center hover:z-[3] hover:shadow-[0_5px_15px_0_rgb(0_0_0_/_35%)]">
           {logo && (
             <Image
-              className="mx-auto"
+              className="mx-auto mb-3 h-20 w-auto"
               src={logo}
-              width={80}
-              height={80}
-              alt="logo"
+              alt={typeof title === "string" ? `${title} logo` : "Project logo"}
             />
           )}
-          {logoFont && <div className="text-6xl">{logoFont}</div>}
+          {logoFont && <div className="mb-3 h-20 text-[70px] leading-none">{logoFont}</div>}
 
           {title && (
-            <h4 className="my-4 text-2xl font-bold text-[#002245] text-shadow-[0_1px_1px_rgb(0_34_69_/_32%)]">
+            <h4 className="mb-3 font-sans text-2xl font-bold leading-[1.125] text-[#002245] [text-shadow:0_1px_1px_rgb(0_34_69_/_32%)]">
               {title}
             </h4>
           )}
 
           {badges && (
-            <div className="flex justify-center mb-2">
+            <div className="mb-2 flex justify-center gap-2">
               {badges.map((badge) => (
                 <Image key={badge} src={badge} height={32} alt="badge" />
               ))}
@@ -61,47 +71,48 @@ const Item: React.FC<ProjectItem> = (props) => {
           )}
 
           {content && (
-            <div className="h-auto max-w-full max-h-full box-shadow-[0_5px_15px_0_rgb(0_0_0_/_35%)] cursor-zoom-in">
+            <div className="[&_img]:h-auto [&_img]:max-h-full [&_img]:max-w-full [&_img]:cursor-zoom-in [&_img]:shadow-[0_5px_15px_0_rgb(0_0_0_/_35%)]">
               {content}
             </div>
           )}
 
           {description && (
-            <div className="mt-4 text-base text-[#151515] letter-spacing-1 text-shadow-[0_1px_1px_#e0e0e0] text-left">
+            <div className="mx-0 mb-[25px] mt-[35px] inline-block text-left text-[15px] leading-normal tracking-[1px] text-[#151515] [text-shadow:0_1px_1px_#e0e0e0] [&_p]:mb-2 [&_p:last-child]:mb-0">
               {description}
             </div>
           )}
 
           {links && (
-            <div className="flex justify-center items-center mb-4 h-12">
+            <div className="mb-[15px] flex h-12 items-center justify-center">
               {links.map((link) => (
                 <a
                   key={link.content}
                   href={link.content}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center px-2 h-12 hover:scale-110 transition-transform duration-300"
+                  aria-label={getLinkLabel(link.content)}
+                  className="inline-flex h-12 items-center px-2 hover:animate-energy"
                 >
-                  <Image src={link.image} height={38} alt="linkImage" />
+                  <Image className="h-[80%] w-auto" src={link.image} alt="" />
                 </a>
               ))}
             </div>
           )}
 
           {techUsed && (
-            <div>
-              <h4 className="pt-4 pb-3 border-t-[1px] border-[#cacaca] font-bold text-[24px] inline-block w-[80%] text-[#151515]">
-                技术栈
+            <div className="leading-normal">
+              <h4 className="inline-block w-4/5 border-t border-[#cacaca] pb-3 pt-4 text-2xl font-bold text-[#151515]">
+                {t("projects.techStack")}
               </h4>
               <ul className="flex flex-wrap justify-center">
                 {techUsed.map((tech, index) => (
                   <li
                     key={tech.content}
                     style={{ animationDelay: `${index * 300}ms` }}
-                    className="my-1 px-2 flex items-center"
+                    className="my-[3px] px-[10px]"
                   >
                     <Tooltip placement="top" title={tech.content} color="black">
-                      <Image src={tech.image} height={38} alt="techUsed" />
+                      <Image className="h-8 w-auto" src={tech.image} alt={tech.content} />
                     </Tooltip>
                   </li>
                 ))}
