@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "antd": "^5.22.1",
     "i18next": "^26.4.2",
     "lottie-web": "^5.12.2",

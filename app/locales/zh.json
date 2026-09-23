@@ -127,5 +127,38 @@
         "description": "一款基于角色的访问控制 checkbox 树形组件，支持多级权限联动选择。"
       }
     }
+  },
+  "contact": {
+    "title": "找我聊聊吧 :)",
+    "subtitle": "交个朋友？聊聊技术？谈场合作？欢迎来找我。",
+    "panelTitle": "一起做点好玩的？👋",
+    "panelDescription": {
+      "line1": "无论是技术交流、项目合作，",
+      "line2": "还是单纯打个招呼，都欢迎联系我。"
+    },
+    "socialTitle": "也可以在这些地方找到我",
+    "footer": "Built with Next.js · Just for fun ~",
+    "form": {
+      "name": {
+        "label": "姓名",
+        "placeholder": "阁下怎么称呼？",
+        "required": "敢问阁下尊姓大名？"
+      },
+      "email": {
+        "label": "邮箱",
+        "placeholder": "邮箱，方便联系",
+        "required": "敢问阁下的邮箱是？"
+      },
+      "message": {
+        "label": "留言",
+        "placeholder": "留言，想说啥就说啥~",
+        "required": "多少说几句是个意思？"
+      },
+      "submit": "发送消息 🚀"
+    },
+    "messages": {
+      "success": "邮件已成功发送！",
+      "error": "发送失败，请稍后再试。"
+    }
   }
 }

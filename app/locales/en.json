@@ -133,5 +133,38 @@
         "description": "A role-based access-control checkbox tree with linked permission selection across multiple levels."
       }
     }
+  },
+  "contact": {
+    "title": "GET IN TOUCH :)",
+    "subtitle": "Want to talk tech, collaborate, or just say hi? Drop me a line.",
+    "panelTitle": "Let's build something fun 👋",
+    "panelDescription": {
+      "line1": "Whether it's tech, collaboration,",
+      "line2": "or simply saying hi, I'd love to hear from you."
+    },
+    "socialTitle": "You can also find me here",
+    "footer": "Built with Next.js · Just for fun ~",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "What should I call you?",
+        "required": "Please enter your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email address",
+        "required": "Please enter a valid email address"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "What would you like to say?",
+        "required": "Please enter your message"
+      },
+      "submit": "Send Message 🚀"
+    },
+    "messages": {
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again later."
+    }
   }
 }
