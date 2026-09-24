@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 // components
 import NavBar from "./_layout/nav-bar";
 // config
+import { PERSON_JSON_LD } from "./config/person";
 import { SITE_URL } from "./config/site";
 // styles
 import "./globals.css";
@@ -55,6 +56,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(PERSON_JSON_LD).replace(/</g, "\\u003c"),
+          }}
+        />
         <NavBar />
         {children}
       </body>
